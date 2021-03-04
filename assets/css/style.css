@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster:100,200,300,400,500,600,700');
+
+/*------------------------Navbar--------------------*/
+
+.navbar-toggler {
+    margin-left: auto;
+    background-color: black;
+}
+
+.bg-dark {
+    background-color: hsl(210, 75%, 2%)!important;
+}
+    
+.navbar-toggler-icon {
+    background-color: black;
+}
+
+.text-white, .h4 {
+   text-align: right;
+}
+
+
+/*------------------------Logo--------------------*/
+
+.styrk-logo {
+    color: white;
+    font-family: "Lobster", cursive, sans-serif;
+}
+
+.styrk-logo:link {
+    text-decoration: none;
+}
+
+.styrk-logo:visited {
+  text-decoration: none;
+}
+
+.styrk-logo:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.styrk-logo:active {
+  text-decoration: none;
+}
+
+
+
+.nav-dropdown {
+    color: white;
+}
+
+.nav-dropdown:link {
+    text-decoration: none;
+}
+
+.nav-dropdown:visited {
+    text-decoration: none;
+}
+
+.nav-dropdown:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-dropdown:active {
+  text-decoration: none;
+}
