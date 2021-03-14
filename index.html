@@ -7,7 +7,8 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/v4-shims.css">
 
 
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
@@ -21,26 +22,90 @@
 
 
 
+        <nav>
+            <div class="container-fluid">
+                <div class="d-flex">
+                    <div class="flex-grow-1">
+                        <h1><a href="index.html" class="styrk-logo text-warning">Styrk Gym</a></h1>
+                    </div>
+                    <div class="d-none d-lg-flex d-xl-flex navmenu-desktop">
+                        <div class="p-2">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </div>
+                        <div class="p-2">
+                            <a class="nav-link" href="membership.html">Membership</a>
+                        </div>
+                        <div class="p-2">
+                            <a class="nav-link" href="gallery.html">Gallery</a>
+                        </div>
+                        <div class="p-2">
+                            <a class="nav-link" href="about-us.html">About us</a>
+                        </div>
+                        <div class="p-2">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn" onclick="myFunction()">
+                            <i class="fas fa-bars"></i>
+                        </button>
+                        <div class="dropdown-content" id="myDropdown">
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                        </div>
+                    </div>  
+                        <!-- <div class="d-flex d-lg-none navbar navbar-dark bg-dark">
+                        <button class="navbar-toggler bg-dark" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon bg-info"></span>
+                        </button>
+                        <div class="collapse" id="navbarToggleExternalContent">
+                            <div class="bg-dark p-4 col-12">
+
+                                <h5 class="text-white h4"><a href="index.html" class="nav-dropdown">Home</a></h5>
+                                <h5 class="text-white h4"><a href="membership.html" class="nav-dropdown">Membership</a>
+                                </h5>
+                                <h5 class="text-white h4"><a href="gallery.html" class="nav-dropdown">Gallery</a>
+                                </h5>
+                                <h5 class="text-white h4"><a href="about-us.html" class="nav-dropdown">About us</a>
+                                </h5>
+                                <h5 class="text-white h4"><a href="contact.html" class="nav-dropdown">Contact us</a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div> -->
+                    
 
 
 
 
 
+        </nav>
+
+
+
+
+
+
+
+        <!-- 
         <nav class="navbar navbar-dark bg-info">
 
             <div class="container-fluid">
 
-                <!------------------------------------Logo-------------------------------------------------->
+                ----------------------------------Logo-------------------------------------------------->
 
-                <div class="row">
-                    <div class="col">
-                        <h1><a href="index.html" class="styrk-logo text-warning">Styrk Gym</a></h1>
-                    </div>
+        <!-- <div class="d-flex">
+
+                    <h1><a href="index.html" class="styrk-logo text-warning">Styrk Gym</a></h1> -->
 
 
-                    <!---------------------------------Hamburger menu for mobile and tablet-------------------------------------------------->
 
-                    <div class="col-6 d-lg-none">
+        <!---------------------------------Hamburger menu for mobile and tablet-------------------------------------------------->
+
+        <!-- <div class="col-6 d-lg-none">
                         <button class="navbar-toggler bg-info" type="button" data-bs-toggle="collapse"
                             data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
                             aria-expanded="false" aria-label="Toggle navigation">
@@ -48,52 +113,40 @@
                         </button>
                     </div>
 
-                </div>
+                </div> -->
+
+        <!---------------------------------Navbar for desktop-------------------------------------------------->
 
 
+        <!-- <div class="row d-none d-lg-flex">
 
 
+                        <ul class="nav justify-content-end">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="membership.html">Membership</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="gallery.html">Gallery</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about-us.html">About us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
 
 
-
-
-
-
-
-
-
-                <!---------------------------------Navbar for desktop-------------------------------------------------->
-
-
-                <div class="row">
-                    <div class="col-lg-12 offset-lg-8 d-none d-lg-block">
-                        <div class="navbar-desktop">
-                            <ul class="nav justify-content-end">
-                                <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="membership.html">Membership</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="gallery.html">Gallery</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="about-us.html">About us</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="contact.html">Contact</a>
-                                </li>
-                            </ul>
-                        </div>
                     </div>
-                </div>
 
 
 
-                <div class="row">
+                    <div class="row"> -->
 
-                    <div class="collapse" id="navbarToggleExternalContent">
+        <!-- <div class="collapse" id="navbarToggleExternalContent">
                         <div class="bg-info p-4 col-12">
 
                             <h5 class="text-white h4"><a href="index.html" class="nav-dropdown">Home</a></h5>
@@ -106,13 +159,13 @@
                             <h5 class="text-white h4"><a href="contact.html" class="nav-dropdown">Contact us</a>
                             </h5>
                         </div>
-                    </div>
+                    </div> -->
 
-                </div>
-            </div>
-            </div>
-            </div>
-            </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
         </nav>
 
 
@@ -191,7 +244,7 @@
     <section>
 
         <h2 class="text-center">Become a member today!</h2>
-        
+
 
         <hr>
 
@@ -207,7 +260,7 @@
         <div class="container-fluid">
             <div class="row align-items-start">
                 <div class="col">
-                    <h5>Footer</h5>
+                    <h5 class="text-warning">Footer</h5>
                 </div>
             </div>
         </div>
