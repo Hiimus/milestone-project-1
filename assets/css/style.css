@@ -2,8 +2,22 @@
 
 /*------------------------Navbar--------------------*/
 
+.navbar-toggler-icon {
+    background-color: #627275;
+    color: #627275;
+}
 
+nav {
+    background-color: #627275;
+}
 
+.nav-link {
+    color: yellow;
+}
+
+.navmenu-desktop {
+    color: yellow;
+}
 
 /*------------------------Logo--------------------*/
 
@@ -48,7 +62,7 @@
     text-decoration: none;
 }
 
-.nav-dropdown:hover {
+.nav-link:hover {
     text-decoration: none;
     color: white;
 }
@@ -76,5 +90,12 @@
 
     
 footer {
-    background-color: red;
+    background-color:#627275;
+}
+
+
+.footer-icons {
+    background-color: white;
+    border: 1px;
+    height: 50px;
 }
