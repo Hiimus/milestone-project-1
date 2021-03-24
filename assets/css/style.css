@@ -24,6 +24,7 @@ nav {
 .styrk-logo {
     
     font-family: "Lobster", cursive, sans-serif;
+   
 }
 
 .styrk-logo:link {
@@ -94,8 +95,37 @@ footer {
 }
 
 
-.footer-icons {
-    background-color: white;
-    border: 1px;
-    height: 50px;
+.footer-logo {
+    width: 150px;
+}
+
+.envelope-icon {
+    color: yellow;
+}
+
+.phone-icon {
+    color: yellow;
+}
+
+.instagram-icon {
+    color: yellow;
+}
+
+.facebook-icon {
+    color: yellow;
+}
+
+
+
+
+
+.instagram-icon:hover {
+  text-decoration: none;
+  color: white;
+}
+
+
+.facebook-icon:hover {
+    text-decoration: none;
+    color: white;
 }
