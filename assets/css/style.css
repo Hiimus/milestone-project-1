@@ -2,14 +2,7 @@
 
 /*------------------------Navbar--------------------*/
 
-.navbar-toggler-icon {
-    background-color: #627275;
-    color: #627275;
-}
 
-nav {
-    background-color: #627275;
-}
 
 .nav-link {
     color: yellow;
@@ -74,7 +67,22 @@ nav {
 
 /*------------------------Callout--------------------*/
 
+/* .container-barbell {
+    height: 70vh;
+    border: solid 1px red;
+} */
 
+
+
+.barbell {
+    background: url("../images/barbell.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 325px;
+    position: absolute;
+    z-index: -1;
+}
 
 /*------------------------Sign up button--------------------*/
 
