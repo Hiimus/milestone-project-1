@@ -34,50 +34,50 @@
                     </button> -->
 
 
-                    <!-- This is the bootstrap version ------------------------------------>
+        <!-- This is the bootstrap version ------------------------------------>
 
-                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                        <div class="container-fluid">
-                            <h1><a href="index.html" class="navbar-brand styrk-logo text-warning">Styrk Gym</a></h1>
-                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                                aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
-                            </button>
-                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                                    <li class="nav-item">
-                                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="membership.html">Membership</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="gallery.html">Gallery</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="about-us.html">About Us</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="contact.html">Contact</a>
-                                    </li>
-                            </div>
-                        </div>
-                    </nav>
-
-
-
-                    <!-- This is the bootstrap version ------------------------------------>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <h1><a href="index.html" class="navbar-brand styrk-logo text-warning">Styrk Gym</a></h1>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="membership.html">Membership</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="gallery.html">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about-us.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                </div>
+            </div>
+        </nav>
 
 
-                    <!-- <div class="d-lg-none collapse navbar-collapse ms-auto" id="navbarToggleExternalContent">
+
+        <!-- This is the bootstrap version ------------------------------------>
+
+
+        <!-- <div class="d-lg-none collapse navbar-collapse ms-auto" id="navbarToggleExternalContent">
 
                 <li><a class="dropdown-item" href="membership.html">Membership</a></li>
                 <li><a class="dropdown-item" href="gallery.html">Gallery</a></li>
                 <li><a class="dropdown-item" href="about-us.html">About us</a></li>
                 <li><a class="dropdown-item" href="contact.html">Contact</a></li>
             </div> -->
-                    <!-- <ul class="d-none d-lg-block navbar-nav me-auto mb-2 mb-lg-0">
+        <!-- <ul class="d-none d-lg-block navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
@@ -116,7 +116,7 @@
             </div> -->
 
 
-                    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Navbar</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -156,7 +156,7 @@
 
 
 
-                    <!-- <div class="container">
+        <!-- <div class="container">
                 <div class="row justify-content-between">
                     <div class="col-6 col-sm-4 offset-md-2 col-md-4 col-lg-3 offset-lg-2">
                         <h1><a href="index.html" class="styrk-logo text-warning">Styrk Gym</a></h1>
@@ -213,55 +213,87 @@
 
     </header>
 
-    <div class="container container-barbell">
+    <div class="container hero-container">
         <div class="row">
-            <div class="col-12">
-                <img src="assets/images/barbell2.jpg" alt="Barbell" class="d-md-none barbell img-fluid rounded">
-                <img src="assets/images/barbell.jpg" alt="Barbell" class="d-none d-md-block barbell img-fluid rounded">
+            <div class="col-12 d-md-none col-barbell">
+                <h3 class="mt-5 text-center p-5 text-light"><strong><em>First month is <mark
+                                class="rounded">free!</mark></em></strong></h3>
+                <button type="button" class="d-flex mx-auto mt-5 text-center btn btn-success shadow-sm">Sign Up</button>
+                <h4 class="text-center text-light mt-4">Quotes</h4>
+            </div>
+            <div class="col-12 d-none d-md-block col-woman">
+
+<!---------------------------------Callout-------------------------------------------------->
+
+                <h3 class="mt-5 text-center p-5 text-light"><strong><em>First month is <mark
+                                class="rounded">free!</mark></em></strong></h3>
+                <button type="button" class="d-flex mx-auto mt-5 text-center btn btn-success shadow-sm">Sign Up</button>
+
+ <!-------------------------------Quotes------------------------------------------------>
+
+
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="..." class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>First slide label</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="..." class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Second slide label</h5>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="..." class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+                    
+                <h4 class="text-center text-light mt-4">Quotes</h4>
             </div>
         </div>
     </div>
 
 
-    <!---------------------------------Callout-------------------------------------------------->
-
-    <!-- <div class="g-0 container callout-container">
-        <div class="row g-0">
-            <div class="col-md-6 barbell">
-                <img class="mt-4 barbell img-responsive" src="assets/images/barbell.jpg" alt="Barbell with weight">
-            </div>
-            </div>
-                <section>
-
-                    <h2 class="text-center p-5 text-light">First month is free!</h2>
-
-                </section>
-
-                <br>
+    
 
 
 
+   
 
-                -------------------------------Sign up 1------------------------------------------------
 
-                <section>
 
-                    <h2 class="text-center text-light">Sign up!</h2>
+    <!-------------------------------Sign up 1------------------------------------------------>
 
-                </section>
+    
+   
 
-                <br>
+  
 
-                -------------------------------Quotes------------------------------------------------
-
-                <section>
-
-                    <h4 class="text-center text-light">Quotes</h4>
-            
-
-            </section>
-        
-    </div> -->
+    </div>
 
     <br>
     <hr>
@@ -272,22 +304,22 @@
 
         <div class="container">
             <div class="row">
-                <div class="col-12 col-md-6">
-                    <h2 class="text-center">Feature 1</h2>
+                <div class="col-12 col-md-6 feature-1">
+                    <h2 class="text-center lead">Feature 1</h2>
                     <hr>
                 </div>
 
-                <div class="col-12 col-md-6">
-                    <h2 class="text-center">Feature 2</h2>
+                <div class="col-12 col-md-6 feature-2">
+                    <h2 class="text-center lead">Feature 2</h2>
                     <hr>
                 </div>
-                <div class="col-12 col-md-6">
-                    <h2 class="text-center">Feature 3</h2>
+                <div class="col-12 col-md-6 feature-3">
+                    <h2 class="text-center lead">Feature 3</h2>
                     <hr>
                 </div>
 
-                <div class="col col-md-6 d-none d-md-block">
-                    <h2 class="text-center">Feature 4</h2>
+                <div class="col col-md-6 d-none d-md-block feature-4">
+                    <h2 class="text-center lead">Feature 4</h2>
                     <hr>
                 </div>
             </div>
@@ -302,7 +334,7 @@
 
     <section>
 
-        <h2 class="text-center">Become a member today!</h2>
+        <h2 class="text-center text-warning">Become a member today!</h2>
 
 
         <hr>
@@ -315,13 +347,16 @@
     <!---------------------------------Footer-------------------------------------------------->
 
 
-    <footer class="fixed-bottom">
-        <div class="container">
+    <footer class="footer fixed-bottom">
+        <div class="container-fluid bg-light">
             <div class="row">
-                <h3 class="p-2 col-2 offset-md-2 styrk-logo text-warning footer-logo col-auto me-auto">Styrk Gym</h3>
+                <h3 class="p-2 col-2 offset-md-1 offset-xl-3 styrk-logo text-warning footer-logo col-auto me-auto">Styrk
+                    Gym</h3>
 
 
-                <div class="p-1 col align-self-center envelope-icon col-auto"><i class="p-2 fas fa-envelope fa-lg"></i>
+                <div
+                    class="p-2 col col-lg-2 offset-md-5 offset-lg-6 offset-xl-3 align-self-center envelope-icon me-auto">
+                    <i class="p-2 fas fa-envelope fa-lg"></i>
                     <i class="p-2 fas fa-phone-alt fa-lg"></i>
                     <a href="https://www.instagram.com/" target="_blank"><i
                             class="p-2 instagram-icon fab fa-instagram fa-lg"></i>
