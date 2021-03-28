@@ -67,25 +67,22 @@
 
 /*------------------------Callout--------------------*/
 
-/* .container-barbell {
-    height: 70vh;
-    border: solid 1px red;
-} */
+
+.container-quotes {
+    height: 500px;
+}
 
 
 
-/* .barbell {
-    background: url("../images/barbell2.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 325px;
-    position: absolute;
-    z-index: -1;
-} */
+.carousel-caption {
+    position: relative;
+    right: 0%;
+    left: 0%;
+}
 
-.hero-container {
-    height: 50vh;
+
+.hero-container-desktop {
+    height: 65vh;
 }
 
 .col-barbell {
@@ -103,7 +100,7 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 60vh;
+    height: 65vh;
 }
 
 
@@ -113,23 +110,15 @@
 
 /*------------------------Features--------------------*/
 
-.feature-1 {
-    background-color: #f9d56b;
-}
 
-.feature-2 {
-    background-color: #1dc376;
-}
 
-.feature-3 {
-    background-color: #ef5b69;
-}
-
-.feature-4 {
-    background-color: #9870e2;
-}
 
 /*------------------------Become a member button--------------------*/
+
+
+.become-member-container {
+height: 600px;
+}
 
 
 /*------------------------Footer--------------------*/
