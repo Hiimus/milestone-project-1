@@ -248,3 +248,100 @@ border: 5px solid red;
     background-size: cover;
     height: 100vh;
     }
+
+
+    /*------------------------about-us.html--------------------*/
+
+    .about-trainer {
+        border-radius: 50%;
+        height: 200px;
+        width: 200px;
+        object-fit: cover;
+        object-position: 100% 30%;
+        
+    }
+
+    .about-trainer2 {
+        border-radius: 50%;
+        height: 200px;
+        width: 200px;
+        object-fit: cover;
+        object-position: 100% 30%;
+        
+    }
+
+    .about-trainer3 {
+        border-radius: 50%;
+        height: 200px;
+        width: 200px;
+        object-fit: cover;
+        object-position: 100% 30%;
+        
+    }
+
+    .about-trainer4 {
+        border-radius: 50%;
+        height: 200px;
+        width: 200px;
+        object-fit: cover;
+        object-position: 100% 30%;
+        
+    }
+
+    .about-trainer5 {
+        border-radius: 50%;
+        height: 200px;
+        width: 200px;
+        object-fit: cover;
+        object-position: 100% 30%;
+        
+    }
+
+    .about-trainer6 {
+        border-radius: 50%;
+        height: 200px;
+        width: 200px;
+        object-fit: cover;
+        object-position: 100% 30%;
+        
+    }
+
+    .about-trainer7 {
+        border-radius: 50%;
+        height: 200px;
+        width: 200px;
+        object-fit: cover;
+        object-position: 100% 30%;
+        
+    }
+
+    .about-trainer8 {
+        border-radius: 50%;
+        height: 200px;
+        width: 200px;
+        object-fit: cover;
+        object-position: 100% 30%;
+        
+    }
+
+    .about-trainer9 {
+        
+        
+        object-fit: cover;
+        object-position: 100% 30%;
+        transform: scale(1.5);
+        border-radius: 50%;
+        height: 100px;
+        width: 100px;
+    
+        
+    }
+
+    .about-trainer10 {
+        border-radius: 50%;
+        height: 200px;
+        width: 200px;
+        object-fit: cover;
+        object-position: 100% 30%;
+        
+    }
