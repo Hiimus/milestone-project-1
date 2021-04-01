@@ -7,7 +7,8 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/v4-shims.css">
 
 
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
@@ -69,29 +70,6 @@
         <!---------------------------------Navbar for desktop-------------------------------------------------->
 
 
-        <div class="row">
-            <div class="col-lg-12 offset-lg-8 d-none d-lg-block">
-                <div class="navbar-desktop">
-                    <ul class="nav justify-content-end">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="membership.html">Membership</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="gallery.html">Gallery</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="about-us.html">About us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
 
 
 
@@ -133,52 +111,103 @@
     <section>
 
 
-<!---------------------------------Buttons from bootstrap library-------------------------------------------------->
+        <!---------------------------------Buttons from bootstrap library-------------------------------------------------->
+
+        <!---------------------------------Membership prices for desktop-------------------------------------------------->
 
         <div class="container-fluid enviroment running-container bg-dark">
-            <div class="row justify-content-center ">
-                <div class="d-none d-md-inline col-12 col-md-4 membership-1 text-center">
-                    <h2 class="text-light">39.90 €/month</h2>
-                    <button type="button" class="btn btn-success">Choose</button>
+
+            <!-- <div class="row enviroment d-none d-md-inline">
+                <div class="mt-5  col-12 col-md-6 membership-container-lg text-center">
+                    <p class="text-light p lead">Nonbinding</p>
+                    <p class="text-light p lead">30 €/month</p>
+                    <button type="button" class="bg-gradient btn btn-success btn-member">Choose</button>
                 </div>
-                <div class="d-none d-md-inline col-12 col-md-4 membership-2 text-center">
-                    <h2 class="text-light">34.90 €/month</h2>
-                    <button type="button" class="btn btn-success">Choose</button>
+
+                <div class="mt-5 mx-auto col-12 col-md-6 membership-container-lg text-center">
+
+                    <p class="text-light p lead">12 Month Contract</p>
+                    <p class="text-light p lead">25 €/month</p>
+                    <button type="button" class="bg-gradient btn btn-success btn-member">Choose</button>
+                </div>
+            </div>
+            <div class="row enviroment d-none d-md-inline">
+                <div class="mt-5 mx-auto col-12 col-md-6 membership-container-lg text-center">
+                    <p class="text-light p lead">Student Price:</p>
+                    <p class="text-light p lead">20 €/month</p>
+                    <button type="button" class="bg-gradient btn btn-success btn-member">Choose</button>
+                </div>
+
+                <div class="mt-5 mx-auto col-12 col-md-6 membership-container-lg text-center">
+                    <p class="text-light p lead">Drop-in</p>
+                    <p class="text-light p lead">5 €</p>
+                    <button type="button" class="bg-gradient btn btn-success btn-member">Choose</button>
+                </div>
+            </div> -->
+            <div class="row justify-content-center ">
+                <div class="mt-5 g-3 d-none d-md-inline col-12 col-md-4 membership-1 text-center">
+                   <p class="text-light membership-text lead">Nonbinding</p>
+                    <p class="text-light membership-text lead">30 €/month</p>
+                    <button type="button" class="bg-gradient btn btn-success btn-member">Choose</button>
+                </div>
+                <div class="mt-5 g-3 d-none d-md-inline col-12 col-md-4 membership-2 text-center">
+                    <p class="text-light membership-text lead">12 Month Contract</p>
+                    <p class="text-light membership-text lead">25 €/month</p>
+                    
+                    <button type="button" class="bg-gradient btn btn-success btn-member">Choose</button>
                 </div>
             </div>
             <div class="row justify-content-center">
-                <div class="d-none d-md-inline col-12 col-md-4 membership-3 text-center">
-                    <h2 class="text-light">29.90 €/month</h2>
-                    <button type="button" class="btn btn-success">Choose</button>
+                <div class="mt-5 g-3 d-none d-md-inline col-12 col-md-4 membership-3 text-center">
+                    <p class="text-light membership-text lead">Student Price:</p>
+                    <p class="text-light membership-text lead">20 €/month</p>
+                    
+                    <button type="button" class="bg-gradient btn btn-success btn-member">Choose</button>
                 </div>
 
-                <div class="d-none d-md-inline col col-md-4 d-md-block membership-4 text-center">
-                    <h2 class="text-light">9.90 €</h2>
-                    <button type="button" class="btn btn-success">Choose</button>
+                <div class="mt-5 g-3 d-none d-md-inline col col-md-4 d-md-block membership-4 text-center">
+                    <p class="text-light membership-text lead">Drop-in</p>
+                    <p class="text-light membership-text lead">5 €</p>
+                    
+                    <button type="button" class="bg-gradient btn btn-success btn-member">Choose</button>
                 </div>
             </div>
 
+            <!---------------------------------Membership prices for mobile-------------------------------------------------->
+
+
             <div class="row ropes d-md-none">
-                <div class="col-12 col-md-6 membership-1 text-center">
-                    <h2 class="text-light">39.90 €/month</h2>
-                    <button type="button" class="btn btn-success">Choose</button>
+                <div class="mt-5 mx-auto col-12 col-md-6 membership-container text-center">
+                    <p class="text-light lead">Nonbinding</p>
+                    <p class="text-light lead">30 €/month</p>
+
+                    <button type="button" class="bg-gradient btn btn-success btn-member">Choose</button>
+
                 </div>
 
-                <div class="col-12 col-md-6 membership-2 text-center">
-                    <h2 class="text-light">34.90 €/month</h2>
-                    <button type="button" class="btn btn-success">Choose</button>
+                <div class="mt- mx-auto col-12 col-md-6 membership-container text-center">
+
+                    <p class="text-light lead">12 Month Contract</p>
+                    <p class="text-light lead">25 €/month</p>
+                    <button type="button" class="bg-gradient btn btn-success btn-member">Choose</button>
+
                 </div>
-                <div class="col-12 col-md-6 membership-3 text-center">
-                    <h2 class="text-light">29.90 €/month</h2>
-                    <button type="button" class="btn btn-success">Choose</button>
+                <div class="mt- mx-auto col-12 col-md-6 membership-container text-center">
+                    <p class="text-light lead">Student Price:</p>
+                    <p class="text-light lead">20 €/month</p>
+                    <button type="button" class="bg-gradient btn btn-success btn-member">Choose</button>
+
                 </div>
 
-                <div class="col col-md-6 d-md-block membership-4 text-center">
-                    <h2 class="text-light">9.90 €</h2>
-                    <button type="button" class="btn btn-success">Choose</button>
+                <div class="mt- mx-auto col-12 col-md-6 membership-container text-center">
+                    <p class="text-light lead">Drop-in</p>
+                    <p class="text-light lead">5 €</p>
+                    <button type="button" class="bg-gradient btn btn-success btn-member">Choose</button>
+
                 </div>
             </div>
         </div>
+
 
 
 
@@ -192,21 +221,43 @@
 
     </section>
     <!---------------------------------Footer-------------------------------------------------->
-    <div>Hello this is "Membership"</div>
+    <footer class="footer fixed-bottom">
+        <div class="container-fluid bg-light">
+            <div class="row">
+                <div class="col-5 col-md-3 p-2 p-md-3 offset-md- offset-xl-3">
+                    <h3 class="styrk-logo text-warning footer-logo">
+                        Styrk
+                        Gym</h3>
+                </div>
 
 
-    <footer>
-        <div class="container-fluid">
-            <div class="row align-items-start">
-                <div class="col">
-                    <h5>Footer</h5>
+
+                <div class="p-1 col col-lg-2 align-self-center envelope-icon me-auto">
+                    <i class="p-1 fas fa-envelope fa-lg"></i>
+                    <h6 class="d-none d-md-block">styrk@yahoo.com</h6>
+                </div>
+
+                <div class="p-1 col col-lg-2 align-self-center envelope-icon me-auto">
+                    <i class="p-1 fas fa-phone-alt fa-lg"></i>
+                    <h6 class="d-none d-md-block">555 555 555</h6>
+                </div>
+
+                <div class="col align-self-center">
+                    <a class="p-1" href="https://www.instagram.com/" target="_blank"><i
+                            class="instagram-icon fab fa-instagram fa-lg"></i></a>
+                    <a class="p-1" href="https://www.facebook.com/" target="_blank"><i
+                            class="facebook-icon fab fa-facebook-square fa-lg"></i></a>
                 </div>
             </div>
         </div>
 
 
-    </footer>
 
+
+
+
+
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
         crossorigin="anonymous"></script>
