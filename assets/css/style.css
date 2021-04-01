@@ -211,28 +211,27 @@ height: 600px;
 
 /*------------------------membership.html--------------------*/
 
-.membership-1 {
-height: 200px;
-border: 5px solid red;
+.membership-container {
+height: 100px;
+width: 80%;
 }
 
-.membership-2 {
+.membership-container-lg {
 height: 200px;
-border: 5px solid red;
+
 }
 
-.membership-3 {
-height: 200px;
-border: 5px solid red;
+.btn-member {
+    background-color: #11613c;
 }
 
-.membership-4 {
-height: 200px;
-border: 5px solid red;
+.membership-text {
+    font-size: 30px;
+    font-weight: 200;
 }
 
 .enviroment {
- background: url(../images/enviroment.jpg) no-repeat center center fixed; 
+ background: url(../images/enviroment1.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -241,12 +240,12 @@ border: 5px solid red;
     }
 
     .ropes {
- background: url(../images/ropes.jpg) no-repeat center center fixed; 
+ background: url(../images/ropes1.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 100vh;
+    height: 130vh;
     }
 
 
