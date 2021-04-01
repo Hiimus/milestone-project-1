@@ -7,7 +7,9 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/v4-shims.css">
+
 
 
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
@@ -51,26 +53,46 @@
 
         <div class="container">
             <div class="row">
-                <div class="col">
-                    555 555 555
+                <div class="col-2 col-md-2">
+                    <i class="p-1 fas fa-phone-alt fa-lg"></i>
                 </div>
+                <div class="col-6 col-md-6">
+                    <h6 class="text-primary">555 555 555</h6>
+                </div>
+                <hr>
             </div>
             <div class="row">
-                <div class="col">
-                    styrk@yahoo.com
+                <div class="col-2 col-md-2">
+                    <i class="p-1 fas fa-envelope fa-lg"></i>
                 </div>
+                <div class="col-6 col-md-6">
+                    <h6 class="text-primary">styrk@yahoo.com</h6>
+                </div>
+                <hr>
+            </div>
+            <div class="row">
+                <div class="col-2 col-md-2">
+                    <i class="p-1 fas fa-map-marker-alt fa-lg"></i>
+                </div>
+                <div class="col-6 col-md-6">
+                    <h6 class="text-primary">Valkendorfsgaten 4, 5012 Bergen, Norway</h6>
+                </div>
+                <hr>
             </div>
         </div>
 
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <!--Google map with help from mdbootstrap.com-->
-                    <div id="map-container-google-2" class="z-depth-1-half map-container" style="height: 500px">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39146.11489829743!2d5.757812844812458!3d58.958846624587444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x463a3549dd29f795%3A0xad7aeb21b80a9259!2sStavanger!5e0!3m2!1sno!2sno!4v1617112068473!5m2!1sno!2sno"
+                    <!--Google maps-->
+                    
+                        <iframe class="d-none d-md-block"
+                            src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d9376.856622891732!2d5.324318665727897!3d60.391692624246424!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sno!4v1617264373912!5m2!1sen!2sno"
                             width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                    </div>
+                        <iframe class="d-md-none"
+                            src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d9376.856622891732!2d5.324318665727897!3d60.391692624246424!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sno!4v1617264373912!5m2!1sen!2sno"
+                            width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>    
+                    
 
                     <!--Google Maps-->
                 </div>
@@ -82,7 +104,41 @@
     <section>
 
     </section>
-    <footer>
+
+    <!---------------------------------Footer-------------------------------------------------->
+
+
+    <footer class="footer fixed-bottom">
+        <div class="container-fluid bg-light">
+            <div class="row">
+                <div class="col-5 col-md-3 p-2 p-md-3 offset-md- offset-xl-3">
+                    <h3 class="styrk-logo text-warning footer-logo">
+                        Styrk
+                        Gym</h3>
+                </div>
+
+
+
+                <div class="p-1 col col-lg-2 align-self-center envelope-icon me-auto">
+                    <i class="p-1 fas fa-envelope fa-lg"></i>
+                    <h6 class="d-none d-md-block">styrk@yahoo.com</h6>
+                </div>
+
+                <div class="p-1 col col-lg-2 align-self-center envelope-icon me-auto">
+                    <i class="p-1 fas fa-phone-alt fa-lg"></i>
+                    <h6 class="d-none d-md-block">555 555 555</h6>
+                </div>
+
+
+                <div class="col align-self-center">
+                    <a class="p-1" href="https://www.instagram.com/" target="_blank"><i
+                            class="instagram-icon fab fa-instagram fa-lg"></i></a>
+                    <a class="p-1" href="https://www.facebook.com/" target="_blank"><i
+                            class="facebook-icon fab fa-facebook-square fa-lg"></i></a>
+                </div>
+            </div>
+        </div>
+
 
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
