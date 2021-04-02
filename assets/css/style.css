@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster:100,200,300,400,500,600,700');
 
+
+
+
+
 /*------------------------Navbar--------------------*/
 
 
@@ -17,6 +21,7 @@
 .styrk-logo {
     
     font-family: "Lobster", cursive, sans-serif;
+    color: #b8c6b2 !important;
    
 }
 
@@ -65,6 +70,12 @@
   text-decoration: none;
 }
 
+.nav-link {
+    color: #b8c6b2 !important;
+}
+
+/*------------------------Index.html--------------------*/
+
 /*------------------------Callout--------------------*/
 
 
@@ -72,7 +83,9 @@
     height: 250px;
 }
 
-
+.btn-home {
+    background-color: #11613c;
+}
 
 .carousel-caption {
     position: relative;
@@ -83,6 +96,7 @@
 
 .hero-container-desktop {
     height: 65vh;
+    background-color: black;
 }
 
 .col-barbell {
@@ -101,8 +115,23 @@
     -o-background-size: cover;
     background-size: cover;
     height: 65vh;
+    max-width: 2000px;
 }
 
+/*------------------------WE OFFER:--------------------*/
+
+.ul-we-offer-sm {
+    margin: 0;
+    padding: 0;
+}
+
+.row-we-offer-lg {
+    max-width: 768px;
+}
+
+.container-we-offer {
+    background-color: #9e8c54;
+}
 
 /*------------------------Sign up button--------------------*/
 
@@ -117,16 +146,18 @@
 
 
 .become-member-container {
-height: 600px;
+    background-color: black;
 }
 
 .fistbump {
-    background: url(../images/fist-bump.jpg) no-repeat center center; 
+    background: url(../images/fist-bump1.jpg) no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    min-height: 350px;
+    min-height: 600px;
+    max-width: 2000px;
+    
 }
 
 
@@ -143,6 +174,10 @@ height: 600px;
     height: auto;
 }
 
+.call-out-btm {
+    font-family: "Lobster", sans-serif;
+    color: #b8c6b2;
+}
 /*------------------------Footer--------------------*/
 
 
@@ -156,19 +191,19 @@ height: 600px;
 }
 
 .envelope-icon {
-    color: #ffc107;
+    color: #b8c6b2;
 }
 
 .phone-icon {
-    color: #ffc107;
+    color: #b8c6b2;
 }
 
 .instagram-icon {
-    color: #ffc107;
+    color: #b8c6b2;
 }
 
 .facebook-icon {
-    color: #ffc107;
+    color: #b8c6b2;
 }
 
 
@@ -224,6 +259,7 @@ height: 200px;
 .btn-member {
     background-color: #11613c;
 }
+
 
 .membership-text {
     font-size: 30px;
