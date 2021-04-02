@@ -99,13 +99,13 @@
     background-color: black;
 }
 
-.col-barbell {
-    background: url(../images/barbell2.jpg) no-repeat center center; 
+.col-kettlebell {
+    background: url(../images/ketlebell1.jpg) no-repeat top center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 50vh;
+    height: 70vh;
 }
 
 .col-woman {
@@ -129,8 +129,8 @@
     max-width: 768px;
 }
 
-.container-we-offer {
-    background-color: #9e8c54;
+.container-features {
+    background-color: #212529;
 }
 
 /*------------------------Sign up button--------------------*/
@@ -162,7 +162,7 @@
 
 
 .kettlebell {
-    background: url(../images/kettlebell.jpg) no-repeat center right; 
+    background: url(../images/fist-bump1.jpg) no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
