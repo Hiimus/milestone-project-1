@@ -4,29 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/v4-shims.css">
-
-
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
-
-    <title>Styrk Gym</title>
-
+    <title>Styrk Gym - The Strongest Gym in Bergen - A Barbell Gym</title>
 </head>
 
 <body>
+
+    <!--HEADER-->
+
     <header>
-
-
-
-
-
-
-
-
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-gradient">
             <div class="container">
                 <h1><a href="index.html" class="navbar-brand-lg styrk-logo">Styrk Gym</a></h1>
@@ -52,320 +42,228 @@
                         <li class="nav-item">
                             <a class="nav-link" href="contact.html">Contact</a>
                         </li>
+                    </ul>
                 </div>
             </div>
         </nav>
-
-
-
-
-
-
-
-
-
-
-
-
-        <!---------------------------------Navbar for desktop-------------------------------------------------->
-
-
-
-
-
-        <div class="row">
-
-            <div class="collapse" id="navbarToggleExternalContent">
-                <div class="bg-info p-4 col-12">
-
-                    <h5 class="text-white h4"><a href="index.html" class="nav-dropdown">Home</a></h5>
-                    <h5 class="text-white h4"><a href="membership.html" class="nav-dropdown">Membership</a>
-                    </h5>
-                    <h5 class="text-white h4"><a href="gallery.html" class="nav-dropdown">Gallery</a>
-                    </h5>
-                    <h5 class="text-white h4"><a href="about-us.html" class="nav-dropdown">About us</a>
-                    </h5>
-                    <h5 class="text-white h4"><a href="contact.html" class="nav-dropdown">Contact us</a>
-                    </h5>
-                </div>
-            </div>
-
-        </div>
-        </div>
-        </div>
-        </div>
-        </div>
-        </nav>
-
-
-
-
-
-
-
     </header>
 
+    <!--MEMBERSHIP ALTERNATIVES W/ BOOTSTRAP MODALS FOR LAPTOP ONLY-->
 
-    <!---------------------------------Memberships-------------------------------------------------->
-
-    <section>
-
-
-
-
-        <!---------------------------------Membership prices for desktop-------------------------------------------------->
-
-        <div class="container-fluid enviroment running-container bg-dark">
-
-            <div class="row justify-content-center ">
-                <div class="mt-5 g-3 d-none d-md-inline col-12 col-md-4 membership-1 text-center">
-                    <p class="text-light membership-text lead">Nonbinding</p>
-                    <p class="text-light membership-text lead">30 €/month</p>
-
-                    <!---------------------------------modal from bootstrap library-------------------------------------------------->
-
-                    <button type="button" class="bg-gradient btn btn-success btn-member" data-bs-toggle="modal"
-                        data-bs-target="#exampleModal" data-bs-whatever="@mdo">Choose</button>
-                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                        aria-hidden="true">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalLabel">Registration</h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                        aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-                                    <form>
-                                        <div class="mb-3">
-                                            <label for="recipient-name" class="col-form-label">Full Name</label>
-                                            <input type="text" class="form-control" id="recipient-name">
-                                        </div>
-                                        <div class="mb-3">
-                                            <label for="recipient-name" class="col-form-label">Address</label>
-                                            <input type="text" class="form-control" id="recipient-name">
-                                        </div>
-                                        <div class="mb-3">
-                                            <label for="recipient-name" class="col-form-label">Post Code</label>
-                                            <input type="text" class="form-control" id="recipient-name">
-                                        </div>
-                                        <div class="mb-3">
-                                            <label for="recipient-name" class="col-form-label">Phone Number</label>
-                                            <input type="text" class="form-control" id="recipient-name">
-                                        </div>
-                                        <div class="mb-3">
-                                            <label for="recipient-name" class="col-form-label">Email Address</label>
-                                            <input type="text" class="form-control" id="recipient-name">
-                                        </div>
-                                    </form>
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary"
-                                        data-bs-dismiss="modal">Close</button>
-                                    <button type="button" class="btn btn-primary">Register</button>
-                                </div>
+    <div class="container-fluid enviroment running-container bg-dark">
+        <div class="row justify-content-center ">
+            <div class="mt-5 g-3 d-none d-md-inline col-12 col-md-4 membership-1 text-center">
+                <p class="text-light membership-text lead">Nonbinding</p>
+                <p class="text-light membership-text lead">30 €/month</p>
+                <button type="button" class="bg-gradient btn btn-success btn-member" data-bs-toggle="modal"
+                    data-bs-target="#modal30">Choose</button>
+                <div class="modal fade" id="modal30" tabindex="-1" aria-labelledby="modal30Label" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="modal30Label">Registration</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
                             </div>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="mt-5 g-3 d-none d-md-inline col-12 col-md-4 membership-2 text-center">
-                    <p class="text-light membership-text lead">12 Month Contract</p>
-                    <p class="text-light membership-text lead">25 €/month</p>
-
-                    <button type="button" class="bg-gradient btn btn-success btn-member" data-bs-toggle="modal"
-                        data-bs-target="#exampleModal" data-bs-whatever="@mdo">Choose</button>
-                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                        aria-hidden="true">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalLabel">Registration</h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                        aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-                                    <form>
-                                        <div class="mb-3">
-                                            <label for="recipient-name" class="col-form-label">Full Name</label>
-                                            <input type="text" class="form-control" id="recipient-name">
-                                        </div>
-                                        <div class="mb-3">
-                                            <label for="recipient-name" class="col-form-label">Address</label>
-                                            <input type="text" class="form-control" id="recipient-name">
-                                        </div>
-                                        <div class="mb-3">
-                                            <label for="recipient-name" class="col-form-label">Post Code</label>
-                                            <input type="text" class="form-control" id="recipient-name">
-                                        </div>
-                                        <div class="mb-3">
-                                            <label for="recipient-name" class="col-form-label">Phone Number</label>
-                                            <input type="text" class="form-control" id="recipient-name">
-                                        </div>
-                                        <div class="mb-3">
-                                            <label for="recipient-name" class="col-form-label">Email Address</label>
-                                            <input type="text" class="form-control" id="recipient-name">
-                                        </div>
-                                    </form>
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary"
-                                        data-bs-dismiss="modal">Close</button>
-                                    <button type="button" class="btn btn-primary">Register</button>
-                                </div>
+                            <div class="text-start modal-body">
+                                <form>
+                                    <div class="mb-3">
+                                        <label for="full-name-30" class="col-form-label">Full Name</label>
+                                        <input type="text" class="form-control" id="full-name-30">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="address-30" class="col-form-label">Address</label>
+                                        <input type="text" class="form-control" id="address-30">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="post-code-30" class="col-form-label">Post Code</label>
+                                        <input type="text" class="form-control" id="post-code-30">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="phone-number-30" class="col-form-label">Phone Number</label>
+                                        <input type="text" class="form-control" id="phone-number-30">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="email-address-30" class="col-form-label">Email Address</label>
+                                        <input type="text" class="form-control" id="email-address-30">
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Register</button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="row justify-content-center">
-                <div class="mt-5 g-3 d-none d-md-inline col-12 col-md-4 membership-3 text-center">
-                    <p class="text-light membership-text lead">Student Price</p>
-                    <p class="text-light membership-text lead">20 €/month</p>
-
-                    <button type="button" class="bg-gradient btn btn-success btn-member" data-bs-toggle="modal"
-                        data-bs-target="#exampleModal" data-bs-whatever="@mdo">Choose</button>
-                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                        aria-hidden="true">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalLabel">Registration</h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                        aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-                                    <form>
-                                        <div class="mb-3">
-                                            <label for="recipient-name" class="col-form-label">Full Name</label>
-                                            <input type="text" class="form-control" id="recipient-name">
-                                        </div>
-                                        <div class="mb-3">
-                                            <label for="recipient-name" class="col-form-label">Address</label>
-                                            <input type="text" class="form-control" id="recipient-name">
-                                        </div>
-                                        <div class="mb-3">
-                                            <label for="recipient-name" class="col-form-label">Post Code</label>
-                                            <input type="text" class="form-control" id="recipient-name">
-                                        </div>
-                                        <div class="mb-3">
-                                            <label for="recipient-name" class="col-form-label">Phone Number</label>
-                                            <input type="text" class="form-control" id="recipient-name">
-                                        </div>
-                                        <div class="mb-3">
-                                            <label for="recipient-name" class="col-form-label">Email Address</label>
-                                            <input type="text" class="form-control" id="recipient-name">
-                                        </div>
-                                    </form>
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary"
-                                        data-bs-dismiss="modal">Close</button>
-                                    <button type="button" class="btn btn-primary">Register</button>
-                                </div>
+            <div class="mt-5 g-3 d-none d-md-inline col-12 col-md-4 membership-2 text-center">
+                <p class="text-light membership-text lead">12 Month Contract</p>
+                <p class="text-light membership-text lead">25 €/month</p>
+                <button type="button" class="bg-gradient btn btn-success btn-member" data-bs-toggle="modal"
+                    data-bs-target="#modal25">Choose</button>
+                <div class="modal fade" id="modal25" tabindex="-1" aria-labelledby="modal25Label" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="modal25Label">Registration</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="text-start modal-body">
+                                <form>
+                                    <div class="mb-3">
+                                        <label for="full-name-25" class="col-form-label">Full Name</label>
+                                        <input type="text" class="form-control" id="full-name-25">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="address-25" class="col-form-label">Address</label>
+                                        <input type="text" class="form-control" id="address-25">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="post-code-25" class="col-form-label">Post Code</label>
+                                        <input type="text" class="form-control" id="post-code-25">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="phone-number-25" class="col-form-label">Phone Number</label>
+                                        <input type="text" class="form-control" id="phone-number-25">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="email-address-25" class="col-form-label">Email Address</label>
+                                        <input type="text" class="form-control" id="email-address-25">
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Register</button>
                             </div>
                         </div>
                     </div>
-                </div>
-
-                <div class="mt-5 g-3 d-none d-md-inline col col-md-4 d-md-block membership-4 text-center">
-                    <p class="text-light membership-text lead">Drop-in</p>
-                    <p class="text-light membership-text lead">5 €</p>
-
-                    <button type="button" class="bg-gradient btn btn-success btn-member" data-bs-toggle="modal"
-                        data-bs-target="#exampleModal" data-bs-whatever="@mdo">Choose</button>
-                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                        aria-hidden="true">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalLabel">Registration</h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                        aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-                                    <form>
-                                        <div class="mb-3">
-                                            <label for="recipient-name" class="col-form-label">Full Name</label>
-                                            <input type="text" class="form-control" id="recipient-name">
-                                        </div>
-                                        <div class="mb-3">
-                                            <label for="recipient-name" class="col-form-label">Address</label>
-                                            <input type="text" class="form-control" id="recipient-name">
-                                        </div>
-                                        <div class="mb-3">
-                                            <label for="recipient-name" class="col-form-label">Post Code</label>
-                                            <input type="text" class="form-control" id="recipient-name">
-                                        </div>
-                                        <div class="mb-3">
-                                            <label for="recipient-name" class="col-form-label">Phone Number</label>
-                                            <input type="text" class="form-control" id="recipient-name">
-                                        </div>
-                                        <div class="mb-3">
-                                            <label for="recipient-name" class="col-form-label">Email Address</label>
-                                            <input type="text" class="form-control" id="recipient-name">
-                                        </div>
-                                    </form>
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary"
-                                        data-bs-dismiss="modal">Close</button>
-                                    <button type="button" class="btn btn-primary">Register</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!---------------------------------Membership prices for mobile-------------------------------------------------->
-
-
-            <div class="row ropes d-md-none">
-                <div class="mt-5 mx-auto col-12 col-md-6 membership-container text-center">
-                    <p class="text-light lead">Nonbinding</p>
-                    <p class="text-light lead">30 €/month</p>
-
-                    <button type="button" class="bg-gradient btn btn-success btn-member">Choose</button>
-
-                </div>
-
-                <div class="mt- mx-auto col-12 col-md-6 membership-container text-center">
-
-                    <p class="text-light lead">12 Month Contract</p>
-                    <p class="text-light lead">25 €/month</p>
-                    <button type="button" class="bg-gradient btn btn-success btn-member">Choose</button>
-
-                </div>
-                <div class="mt- mx-auto col-12 col-md-6 membership-container text-center">
-                    <p class="text-light lead">Student Price</p>
-                    <p class="text-light lead">20 €/month</p>
-                    <button type="button" class="bg-gradient btn btn-success btn-member">Choose</button>
-
-                </div>
-
-                <div class="mt- mx-auto col-12 col-md-6 membership-container text-center">
-                    <p class="text-light lead">Drop-in</p>
-                    <p class="text-light lead">5 €</p>
-                    <button type="button" class="bg-gradient btn btn-success btn-member">Choose</button>
-
                 </div>
             </div>
         </div>
+        <div class="row justify-content-center">
+            <div class="mt-5 g-3 d-none d-md-inline col-12 col-md-4 membership-3 text-center">
+                <p class="text-light membership-text lead">Student Price</p>
+                <p class="text-light membership-text lead">20 €/month</p>
+                <button type="button" class="bg-gradient btn btn-success btn-member" data-bs-toggle="modal"
+                    data-bs-target="#modal20">Choose</button>
+                <div class="modal fade" id="modal20" tabindex="-1" aria-labelledby="modal20Label" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="modal20Label">Registration</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="text-start modal-body">
+                                <form>
+                                    <div class="mb-3">
+                                        <label for="full-name-20" class="col-form-label">Full Name</label>
+                                        <input type="text" class="form-control" id="full-name-20">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="address-20" class="col-form-label">Address</label>
+                                        <input type="text" class="form-control" id="address-20">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="post-code-20" class="col-form-label">Post Code</label>
+                                        <input type="text" class="form-control" id="post-code-20">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="phone-number-20" class="col-form-label">Phone Number</label>
+                                        <input type="text" class="form-control" id="phone-number-20">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="email-address-20" class="col-form-label">Email Address</label>
+                                        <input type="text" class="form-control" id="email-address-20">
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Register</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-5 g-3 d-none d-md-inline col col-md-4 d-md-block membership-4 text-center">
+                <p class="text-light membership-text lead">Drop-in</p>
+                <p class="text-light membership-text lead">5 €</p>
+                <button type="button" class="bg-gradient btn btn-success btn-member" data-bs-toggle="modal"
+                    data-bs-target="#modal5">Choose</button>
+                <div class="modal fade" id="modal5" tabindex="-1" aria-labelledby="modal5Label" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="modal5Label">Registration</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="text-start modal-body">
+                                <form>
+                                    <div class="mb-3">
+                                        <label for="full-name-5" class="col-form-label">Full Name</label>
+                                        <input type="text" class="form-control" id="full-name-5">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="address-5" class="col-form-label">Address</label>
+                                        <input type="text" class="form-control" id="address-5">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="post-code-5" class="col-form-label">Post Code</label>
+                                        <input type="text" class="form-control" id="post-code-5">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="phone-number-5" class="col-form-label">Phone Number</label>
+                                        <input type="text" class="form-control" id="phone-number-5">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="email-address-5" class="col-form-label">Email Address</label>
+                                        <input type="text" class="form-control" id="email-address-5">
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Register</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
+    <!--MEMBERSHIP ALTERNATIVES FOR MOBILE-->
 
+    <div class="row ropes d-md-none">
+        <div class="mt-5 mx-auto col-12 col-md-6 membership-container text-center">
+            <p class="text-light lead">Nonbinding</p>
+            <p class="text-light lead">30 €/month</p>
+            <button type="button" class="bg-gradient btn btn-success btn-member">Choose</button>
+        </div>
+        <div class="mt- mx-auto col-12 col-md-6 membership-container text-center">
+            <p class="text-light lead">12 Month Contract</p>
+            <p class="text-light lead">25 €/month</p>
+            <button type="button" class="bg-gradient btn btn-success btn-member">Choose</button>
+        </div>
+        <div class="mt- mx-auto col-12 col-md-6 membership-container text-center">
+            <p class="text-light lead">Student Price</p>
+            <p class="text-light lead">20 €/month</p>
+            <button type="button" class="bg-gradient btn btn-success btn-member">Choose</button>
+        </div>
+        <div class="mt- mx-auto col-12 col-md-6 membership-container text-center">
+            <p class="text-light lead">Drop-in</p>
+            <p class="text-light lead">5 €</p>
+            <button type="button" class="bg-gradient btn btn-success btn-member">Choose</button>
+        </div>
+    </div>
 
+    <!--FOOTER-->
 
-
-    </section>
-
-
-    <section>
-
-
-
-    </section>
-    <!---------------------------------Footer-------------------------------------------------->
     <footer class="footer fixed-bottom">
         <div class="container-fluid bg-dark">
             <div class="container">
@@ -381,7 +279,6 @@
                         <i class="p-1 fas fa-phone-alt fa-lg"></i>
                         <h6 class="d-none d-md-inline">555 555 555</h6>
                     </div>
-
                     <div class="col col-md-2 align-self-center text-end">
                         <a class="p-1" href="https://www.instagram.com/" target="_blank"><i
                                 class="instagram-icon fab fa-instagram fa-lg"></i></a>
@@ -390,16 +287,14 @@
                     </div>
                 </div>
             </div>
-
         </div>
     </footer>
 
+    <!--BOOTSTRAP SCRIPT-->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
         crossorigin="anonymous"></script>
-
-
 </body>
 
 </html>

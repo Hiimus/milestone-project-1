@@ -4,25 +4,12 @@
 
 
 
-/*------------------------Navbar--------------------*/
-
-
-
-.nav-link {
-    color: yellow;
-}
-
-.navmenu-desktop {
-    color: yellow;
-}
-
-/*------------------------Logo--------------------*/
+/*--Navbar--*/
 
 .styrk-logo {
     
     font-family: "Lobster", cursive, sans-serif;
-    color: #b8c6b2 !important;
-   
+    color: #b8c6b2 !important;  
 }
 
 .styrk-logo:link {
@@ -33,24 +20,9 @@
   text-decoration: none;
 }
 
-.styrk-logo:hover {
-  text-decoration: none;
-  color: white;
-}
 
 .styrk-logo:active {
   text-decoration: none;
-}
-
-
-.nav-dropdown {
-    text-align: right;
-}
-
-
-
-.nav-dropdown {
-    color: white;
 }
 
 .nav-dropdown:link {
@@ -61,35 +33,79 @@
     text-decoration: none;
 }
 
-.nav-link:hover {
-    text-decoration: none;
-    color: white;
-}
 
-.nav-dropdown:active {
-  text-decoration: none;
+.nav-link:active {
+  text-decoration: underline !important;
 }
 
 .nav-link {
     color: #b8c6b2 !important;
 }
 
-/*------------------------Index.html--------------------*/
-
-/*------------------------Callout--------------------*/
-
-
-
-.btn-home {
-    background-color: #11613c;
+.nav-link:hover {
+    text-decoration: none;
+    color: white !important;
 }
 
-.carousel-caption {
-    position: relative;
-    right: 0%;
-    left: 0%;
+
+
+
+/*--Footer--*/
+
+    
+.footer-logo {
+    width: 150px;
 }
 
+.envelope-icon {
+    color: #b8c6b2;
+}
+
+.phone-icon {
+    color: #b8c6b2;
+}
+
+.instagram-icon {
+    color: #b8c6b2;
+}
+
+.facebook-icon {
+    color: #b8c6b2;
+}
+
+
+.instagram-icon:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.instagram-icon:link {
+    text-decoration: none;
+}
+
+.instagram-icon:visited {
+    text-decoration: none;
+}
+    
+
+.facebook-icon:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.facebook-icon:link {
+    text-decoration: none;
+}
+
+.facebook-icon:visited {
+    text-decoration: none;
+}
+
+
+
+/*--Index.html--*/
+
+/*--Hero image--*/
 
 .hero-container-desktop {
     height: 65vh;
@@ -115,7 +131,25 @@
     max-width: 2000px;
 }
 
-/*------------------------WE OFFER:--------------------*/
+.btn-home {
+    background-color: #11613c;
+}
+
+
+
+/*--Callout--*/
+
+
+/*--Bootstrap Carousel--*/
+
+.carousel-caption {
+    position: relative;
+    right: 0%;
+    left: 0%;
+}
+
+
+/*--Styrk Gym features--*/
 
 .ul-we-offer-sm {
     margin: 0;
@@ -128,23 +162,18 @@
 
 
 
-/*------------------------Sign up button--------------------*/
+/*--Sign up button--*/
 
-/*------------------------Quotes--------------------*/
+/*--Quotes--*/
 
-/*------------------------Features--------------------*/
-
-
+/*--Features--*/
 
 
-/*------------------------Become a member button--------------------*/
 
 
-.become-member-container {
-    background-color: black;
-}
+/*--Become a member section--*/
 
-.fistbump {
+.fistbump-md {
     background: url(../images/fist-bump1.jpg) no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -156,7 +185,7 @@
 }
 
 
-.kettlebell {
+.fistbump-sm {
     background: url(../images/fist-bump1.jpg) no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -165,81 +194,13 @@
     min-height: 300px;
 }
 
-.col-member-today {
-    height: auto;
-}
-
-.call-out-btm {
+.become-a-member {
     font-family: "Lobster", sans-serif;
     color: #b8c6b2;
 }
-/*------------------------Footer--------------------*/
 
 
-
-    
-
-
-
-.footer-logo {
-    width: 150px;
-}
-
-.envelope-icon {
-    color: #b8c6b2;
-}
-
-.phone-icon {
-    color: #b8c6b2;
-}
-
-.instagram-icon {
-    color: #b8c6b2;
-}
-
-.facebook-icon {
-    color: #b8c6b2;
-}
-
-
-
-
-
-
-
-.instagram-icon:hover {
-  text-decoration: none;
-  color: white;
-}
-
-.instagram-icon:link {
-    text-decoration: none;
-}
-
-.instagram-icon:visited {
-    text-decoration: none;
-}
-    
-
-
-
-
-.facebook-icon:hover {
-    text-decoration: none;
-    color: white;
-}
-
-.facebook-icon:link {
-    text-decoration: none;
-}
-
-.facebook-icon:visited {
-    text-decoration: none;
-}
-
-
-
-/*------------------------membership.html--------------------*/
+/*--membership.html--*/
 
 .membership-container {
 height: 100px;
@@ -280,9 +241,9 @@ height: 200px;
     }
 
 
-    /*------------------------gallery.html--------------------*/
+    /*--gallery.html--*/
 
-/*------------------------responsive image grid from https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp--------------------*/
+/*--responsive image grid from https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp--*/
 
 
 .row1 {
@@ -291,7 +252,7 @@ height: 200px;
   padding: 0 4px;
 }
 
-/* Create four equal columns that sits next to each other */
+
 .column {
   flex: 25%;
   max-width: 25%;
@@ -304,7 +265,7 @@ height: 200px;
   width: 100%;
 }
 
-/* Responsive layout - makes a two column-layout instead of four columns */
+
 @media screen and (max-width: 800px) {
   .column {
     flex: 50%;
@@ -312,7 +273,7 @@ height: 200px;
   }
 }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+
 @media screen and (max-width: 600px) {
   .column {
     flex: 100%;
@@ -321,9 +282,9 @@ height: 200px;
 }
 
 
-/*------------------------responsive image grid from https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp--------------------*/
+/*--responsive image grid from https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp--*/
 
-    /*------------------------about-us.html--------------------*/
+/*--about-us.html--*/
 
     .about-trainer {
        max-height: 400px;
@@ -340,101 +301,17 @@ height: 200px;
         font-size: 17px;
     }
 
-    .about-trainer2 {
-        /* border-radius: 50%;
-        height: 200px;
-        width: 200px;
-        object-fit: cover;
-        object-position: 100% 30%; */
-        
-    }
-
-    .about-trainer3 {
-        border-radius: 50%;
-        height: 200px;
-        width: 200px;
-        object-fit: cover;
-        object-position: 100% 30%;
-        
-    }
-
-    .about-trainer4 {
-        border-radius: 50%;
-        height: 200px;
-        width: 200px;
-        object-fit: cover;
-        object-position: 100% 30%;
-        
-    }
-
-    .about-trainer5 {
-        border-radius: 50%;
-        height: 200px;
-        width: 200px;
-        object-fit: cover;
-        object-position: 100% 30%;
-        
-    }
-
-    .about-trainer6 {
-        border-radius: 50%;
-        height: 200px;
-        width: 200px;
-        object-fit: cover;
-        object-position: 100% 30%;
-        
-    }
-
-    .about-trainer7 {
-        border-radius: 50%;
-        height: 200px;
-        width: 200px;
-        object-fit: cover;
-        object-position: 100% 30%;
-        
-    }
-
-    .about-trainer8 {
-        border-radius: 50%;
-        height: 200px;
-        width: 200px;
-        object-fit: cover;
-        object-position: 100% 30%;
-        
-    }
-
-    .about-trainer9 {
-        
-        
-        object-fit: cover;
-        object-position: 100% 30%;
-        transform: scale(1.5);
-        border-radius: 50%;
-        height: 100px;
-        width: 100px;
     
-        
-    }
-
-    .about-trainer10 {
-        border-radius: 50%;
-        height: 200px;
-        width: 200px;
-        object-fit: cover;
-        object-position: 100% 30%;
-        
-    }
 
 
-
- /*------------------------contact.html--------------------*/
+ /*--contact.html--*/
 
 
     .container-contact {
         color: #b8c6b2;
         max-width: 700px;
     }
-/*------------------------copy code from W3 school https://www.w3schools.com/howto/howto_css_responsive_iframes.asp--------------------*/
+/*--responsive iframe from W3 school https://www.w3schools.com/howto/howto_css_responsive_iframes.asp--*/
     
 
 .container-google-map {
@@ -460,4 +337,4 @@ height: 200px;
   border: none;
 }
 
-/*------------------------copy code from W3 school https://www.w3schools.com/howto/howto_css_responsive_iframes.asp--------------------*/
+/*--responsive iframe from W3 school https://www.w3schools.com/howto/howto_css_responsive_iframes.asp--*/
