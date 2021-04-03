@@ -79,9 +79,6 @@
 /*------------------------Callout--------------------*/
 
 
-.container-quotes {
-    height: 250px;
-}
 
 .btn-home {
     background-color: #11613c;
@@ -129,9 +126,7 @@
     max-width: 768px;
 }
 
-.container-features {
-    background-color: #212529;
-}
+
 
 /*------------------------Sign up button--------------------*/
 
@@ -331,20 +326,26 @@ height: 200px;
     /*------------------------about-us.html--------------------*/
 
     .about-trainer {
-        border-radius: 50%;
-        height: 200px;
-        width: 200px;
-        object-fit: cover;
-        object-position: 100% 30%;
+       max-height: 400px;
         
     }
 
+    .p-about-lg {
+        color: #b8c6b2;
+        font-size: 20px;
+    }
+
+    .p-about-sm {
+        color: #b8c6b2;
+        font-size: 17px;
+    }
+
     .about-trainer2 {
-        border-radius: 50%;
+        /* border-radius: 50%;
         height: 200px;
         width: 200px;
         object-fit: cover;
-        object-position: 100% 30%;
+        object-position: 100% 30%; */
         
     }
 
