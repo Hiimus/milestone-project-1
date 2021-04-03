@@ -112,13 +112,13 @@
     background-color: black;
 }
 
-.col-kettlebell {
-    background: url(../images/ketlebell1.jpg) no-repeat top center; 
+.col-deadlift {
+    background: url(../images/deadlift.jpg) no-repeat bottom center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 70vh;
+    height: 68vh;
 }
 
 .col-woman {
@@ -133,6 +133,10 @@
 
 .btn-home {
     background-color: #11613c;
+}
+
+.a-link {
+    text-align: center;
 }
 
 
