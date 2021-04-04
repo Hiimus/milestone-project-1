@@ -39,6 +39,54 @@ This section is also where you would share links to any wireframes, mockups, dia
 
 [Balsamiq](https://www.balsamiq.com/) was used to make [wireframes](wireframes/) for mobile, tablet and desktop view.  
 
+![google lightouse test](readme/testing.jpg"First Lighthouse Test")
+
+# Testing
+
+## Code testing
+
+Google's Lighthouse Test in Chrome Devtools:
+
+Test score first test:
+
+![google lightouse test](readme-images/testing.JPG)
+
+Test score after improvements:
+
+![google lightouse test](readme-images/testing-1.JPG)
+
+## Code Validators
+
+[W3C HTML Validator by Direct input](https://www.validator.w3.org/) 
+
+- index.html results: No errors or warnings to show.
+
+![index validation test](readme-images/index-validation.JPG)
+
+- membership.html results: No errors or warnings to show.
+
+![membership validation test](readme-images/membership-validation.JPG)
+
+- gallery.html results: No errors or warnings to show.
+
+![gallery validation test](readme-images/gallery-validation.JPG)
+
+- about-us.html results: No errors or warnings to show.
+
+![about us validation test](readme-images/about-us-validation.JPG)
+
+- contact.html results: No errors or warnings to show.
+
+![contact validation test](readme-images/contact-validation.JPG)
+
+[W3C CSS Validator via Direct Entry](https://jigsaw.w3.org/css-validator/#validate_by_input)
+v
+- style.css results: No errors found.
+
+![css validation test](readme-images/css-validation.JPG)
+
+
+
 
 
 
