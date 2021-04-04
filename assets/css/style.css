@@ -113,7 +113,7 @@
 }
 
 .col-deadlift {
-    background: url(../images/deadlift.jpg) no-repeat bottom center; 
+    background: url(../images/deadlift1.jpg) no-repeat bottom center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -122,7 +122,7 @@
 }
 
 .col-woman {
-    background: url(../images/woman-squat.jpg) no-repeat center center; 
+    background: url(../images/woman-squat-k.jpg) no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -190,7 +190,7 @@
 
 
 .fistbump-sm {
-    background: url(../images/fist-bump1.jpg) no-repeat center center; 
+    background: url(../images/fist-bump1-k.jpg) no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -227,7 +227,7 @@ height: 200px;
 }
 
 .enviroment {
- background: url(../images/enviroment1.jpg) no-repeat center center fixed; 
+ background: url(../images/enviroment1-k.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -236,7 +236,7 @@ height: 200px;
     }
 
     .ropes {
- background: url(../images/ropes1.jpg) no-repeat center center fixed; 
+ background: url(../images/ropes1-k.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -284,9 +284,6 @@ height: 200px;
     max-width: 100%;
   }
 }
-
-
-/*--responsive image grid from https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp--*/
 
 /*--about-us.html--*/
 
