@@ -7,11 +7,17 @@
 ## UX
  
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+
 ### Project goals
+
  The goal of this project is to let the user know that this gym is leaning towards barbell strength training. One of the goals is to get attention and interest even though the user doesn't have much or any experience with this type of training. Styrk Gym is a place that welcomes all types of people. Compared to other gyms, Styrk is more leaned towards compound movements and the sport of lifting. Here, the user can expect squat racks, benches, open spaces  and more. And not rows of threadmills, bikes and your typical cardio equipment. There will be lots of room for acitivity. 
+
 ## User Stories
+
 The users of this site will be non-members and members.
+
 As a non-member of this gym, I want:
+
 - To get a quick first impression of what type of gym this is.
 - To see the pricing information. Can I expect any starting fees a campain or deals?
 - To see how the gym looks like.
@@ -20,7 +26,9 @@ As a non-member of this gym, I want:
 - To know what kind of equipment this gym has.
 - To know who is running this gym, do they have personal trainers?
 - What can I expect to get/learn/experience from this gym. Do they have any classes?
+
 As a member of this gym, I want:
+
 - To see membership alternatives.
 - To find the contact information of this gym.
 - The ability to see this gym on social media. 
@@ -65,30 +73,83 @@ Features Left to Implement:
 ## Technologies Used
 
 ### Tools:
-[Gitpod](https://www.gitpod.io/) used as IDE.
-[GitHub](https://github.com/) used to store and share reposetory.
-[Git](https://git-scm.com/) for version control.
-[Balsamiq](https://balsamiq.com/) for creating wireframes.
-[Google Chrome DevTools](https://developer.chrome.com/docs/devtools/) to view the site in various screen sizes and devices. For trying out style and code without doing any real changes to the page. 
-[Google Lighthouse](https://developers.google.com/web/tools/lighthouse) for testing of performance, accessibility and SEO.
-[Responsive Design Checker](https://www.responsivedesignchecker.com/) for testing of responsiveness on various screen sizes and devices.
-[Microsoft Paint](https://support.microsoft.com/en-us/windows/get-microsoft-paint-a6b9578c-ed1c-5b09-0699-4ed8115f9aa9) for resizing images while maintaining aspect ratio.
-[Coolors](https://coolors.co/), a handy tool for deciding on what colors go well together.
+
+- [Gitpod](https://www.gitpod.io/) used as IDE.
+- [GitHub](https://github.com/) used to store and share reposetory.
+- [Git](https://git-scm.com/) for version control.
+- [Balsamiq](https://balsamiq.com/) for creating wireframes.
+- [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/) to view the site in various screen sizes and devices. For trying out style and code without doing any real changes to the page. 
+- [Google Lighthouse](https://developers.google.com/web/tools/lighthouse) for testing of performance, accessibility and SEO.
+- [Responsive Design Checker](https://www.responsivedesignchecker.com/) for testing of responsiveness on various screen sizes and devices.
+- [Microsoft Paint](https://support.microsoft.com/en-us/windows/get-microsoft-paint-a6b9578c-ed1c-5b09-0699-4ed8115f9aa9) for resizing images while maintaining aspect ratio.
+- [Coolors](https://coolors.co/), a handy tool for deciding on what colors go well together.
+
 ### Libraries:
-[Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/) for a quick page structure, components, navbar and other elements.
-[Google Fonts](https://fonts.google.com/) as a provider of font styles for my project.
-[Font Awesome](https://fontawesome.com/) as a provider of icons.
+
+- [Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/) for a quick page structure, components, navbar and other elements.
+- [Google Fonts](https://fonts.google.com/) as a provider of font styles for my project.
+- [Font Awesome](https://fontawesome.com/) as a provider of icons.
+
 Languages:
+
 [HTML5](https://en.wikipedia.org/wiki/HTML5) and [CSS3](https://en.wikipedia.org/wiki/CSS).
-
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
 
 
 ## Testing
+
 The testing of this project can be found as a seperate [TESTING.md]() file.
+
+# Testing
+
+## Code testing
+
+Google's Lighthouse Test in Chrome Devtools:
+
+Test score first test:
+
+![google lightouse test](readme-images/testing.JPG)
+
+Test score after improvements:
+![google lightouse test](readme-images/testing-1.JPG)
+
+## Code Validators
+
+[W3C HTML Validator by Direct input](https://www.validator.w3.org/) 
+- index.html results: No errors or warnings to show.
+
+![index validation test](readme-images/index-validation-k.JPG)
+- membership.html results: No errors or warnings to show.
+
+![membership validation test](readme-images/membership-validation-k.JPG)
+- gallery.html results: No errors or warnings to show.
+
+![gallery validation test](readme-images/gallery-validation-k.JPG)
+- about-us.html results: No errors or warnings to show.
+
+![about us validation test](readme-images/about-us-validation-k.JPG)
+- contact.html results: No errors or warnings to show.
+
+![contact validation test](readme-images/contact-validation-k.JPG)
+[W3C CSS Validator via Direct Entry](https://jigsaw.w3.org/css-validator/#validate_by_input)
+- style.css results: No errors found.
+
+![css validation test](readme-images/css-validation-k.JPG)
+
+## Responsiveness
+
+![responsiveness test](readme-images/responsiveness.JPG)
+
+![iphone 5 test1](readme-images/iphone5-test1.JPG) ![iphone 5 test2](readme-images/iphone5-test2.JPG)
+
+## Browser Testing
+
+![browser test](readme-images/browser-test.JPG)
+
+## User Story Testing
+
+## Bugs
+
+
 ## Deployment
 My project was deployed to GitHub pages. 
 1. Go to [GitHub](https://github.com/) and sign in to account.
