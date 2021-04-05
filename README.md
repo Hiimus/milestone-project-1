@@ -1,111 +1,85 @@
 # Styrk Gym
 
-One or two paragraphs providing an overview of your project.
+### A gym that is passionate about strength training and barbell movements.
 
-Essentially, this part is your sales pitch.
+
  
 ## UX
  
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
+### Project goals
+ The goal of this project is to let the user know that this gym is leaning towards barbell strength training. One of the goals is to get attention and interest even though the user doesn't have much or any experience with this type of training. Styrk Gym is a place that welcomes all types of people. Compared to other gyms, Styrk is more leaned towards compound movements and the sport of lifting. Here, the user can expect squat racks, benches, open spaces  and more. And not rows of threadmills, bikes and your typical cardio equipment. There will be lots of room for acitivity. 
 ## User Stories
-
+The users of this site will be non-members and members.
 As a non-member of this gym, I want:
-
-1. The first impression to tell me if this is the right gym for me.
-2. Pricing information.
-3. To see how the gym looks like.
-5. To know about practical needs like: 
-- Does the gym have lockers 
-- Does the gym have changing room/wardrobe with shower.
-- Parking, is it free?
-6. To know if there is a reception.
-7. Does the gym have a good variety of equipment?
-8. Are there personel/personal trainers present that can assist me with whatever?
-9. Is there a dress code?
-
+- To get a quick first impression of what type of gym this is.
+- To see the pricing information. Can I expect any starting fees a campain or deals?
+- To see how the gym looks like.
+- To get an idea of what the type of members this gym has. 
+- To know the opening hours of this gym.
+- To know what kind of equipment this gym has.
+- To know who is running this gym, do they have personal trainers?
+- What can I expect to get/learn/experience from this gym. Do they have any classes?
 As a member of this gym, I want:
+- To see membership alternatives.
+- To find the contact information of this gym.
+- The ability to see this gym on social media. 
+- To know the opening hours of the gym.
+- To learn more about the staff.
+- To learn more about the training classes they provide.
 
-1. To sign in, and see the status of my membership.
-2. To be able to contact the owners of the gym.
-3. The ability to see this gym on social media. 
-4. To know the opening hours of the gym.
-5. A personal trainer that can help me reach my goals.
+## Design
+
+The design should represent a gym that focus on barbell movements and compound movements, but also a gym that includes all kinds of people. A friendly enviroment is important to make everyone feel welcome.  
+
+Backgrounds and images: 
+The background images for the landing page have been selected because they fit the project goals: To give the user an impression of this being a lifting-based gym, and a gym that includes everyone. That is why the desktop version has a woman squatting with a barbell, and the mobile version has barbell from ground view. 
+At the bottom of the landing page, there are two guys fist-bumping, which can give a sense of a good enviroment among members.
+The gallery provide images that gives the user an idea of what kind of equipment to expect, images of people training, stretching and having fun.
+
+Fonts: I wanted the logo to be down to earth and a little playful. After a look through the google font library the lobster font just seemed perfect for my project. 
+In the "We offer" section of the landing page, the bootstrap "lead" class have been selected because I personally think it looks good.
+
+Styling: X colors have been used throughout the page.
+
+Icons: Icons from fontawesome have been used to display email, telephone and social media in the footer. The email and telephone icons is also used in the contact page.
 
 
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 
-### Wireframes 
-
-[Balsamiq](https://www.balsamiq.com/) was used to make [wireframes](wireframes/) for mobile, tablet and desktop view.  
-
-![google lightouse test](readme/testing.jpg"First Lighthouse Test")
-
-# Testing
-
-## Code testing
-
-Google's Lighthouse Test in Chrome Devtools:
-
-Test score first test:
-
-![google lightouse test](readme-images/testing.JPG)
-
-Test score after improvements:
-
-![google lightouse test](readme-images/testing-1.JPG)
-
-## Code Validators
-
-[W3C HTML Validator by Direct input](https://www.validator.w3.org/) 
-
-- index.html results: No errors or warnings to show.
-
-![index validation test](readme-images/index-validation.JPG)
-
-- membership.html results: No errors or warnings to show.
-
-![membership validation test](readme-images/membership-validation.JPG)
-
-- gallery.html results: No errors or warnings to show.
-
-![gallery validation test](readme-images/gallery-validation.JPG)
-
-- about-us.html results: No errors or warnings to show.
-
-![about us validation test](readme-images/about-us-validation.JPG)
-
-- contact.html results: No errors or warnings to show.
-
-![contact validation test](readme-images/contact-validation.JPG)
-
-[W3C CSS Validator via Direct Entry](https://jigsaw.w3.org/css-validator/#validate_by_input)
-v
-- style.css results: No errors found.
-
-![css validation test](readme-images/css-validation.JPG)
-
-
-
-
-
+Wireframes:  [here](wireframes/) 
 
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+### Existing features:
+Navigation bar
+Footer: 
+Home page:
+Membership page:
+Gallery page:
+About us page:
+Contact page:
+
+Features Left to Implement:
  
-### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
-
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
-### Features Left to Implement
-- Another feature idea
-
 ## Technologies Used
+
+### Tools:
+[Gitpod](https://www.gitpod.io/) used as IDE.
+[GitHub](https://github.com/) used to store and share reposetory.
+[Git](https://git-scm.com/) for version control.
+[Balsamiq](https://balsamiq.com/) for creating wireframes.
+[Google Chrome DevTools](https://developer.chrome.com/docs/devtools/) to view the site in various screen sizes and devices. For trying out style and code without doing any real changes to the page. 
+[Google Lighthouse](https://developers.google.com/web/tools/lighthouse) for testing of performance, accessibility and SEO.
+[Responsive Design Checker](https://www.responsivedesignchecker.com/) for testing of responsiveness on various screen sizes and devices.
+[Microsoft Paint](https://support.microsoft.com/en-us/windows/get-microsoft-paint-a6b9578c-ed1c-5b09-0699-4ed8115f9aa9) for resizing images while maintaining aspect ratio.
+[Coolors](https://coolors.co/), a handy tool for deciding on what colors go well together.
+### Libraries:
+[Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/) for a quick page structure, components, navbar and other elements.
+[Google Fonts](https://fonts.google.com/) as a provider of font styles for my project.
+[Font Awesome](https://fontawesome.com/) as a provider of icons.
+Languages:
+[HTML5](https://en.wikipedia.org/wiki/HTML5) and [CSS3](https://en.wikipedia.org/wiki/CSS).
 
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
@@ -114,26 +88,16 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 
 ## Testing
-
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
+The testing of this project can be found as a seperate [TESTING.md]() file.
 ## Deployment
+My project was deployed to GitHub pages. 
+1. Go to [GitHub](https://github.com/) and sign in to account.
+2. Click on your profile menu in the top right corner, then "your repositories".
+3. Click on "milestone-project-1" and then click on "settings".
+4. Once on this page, scroll down to the "GitHub Pages" section, and select "main-branch". Click save.
+5. The page will refresh, and after a short while, scroll down again to the same "GitHub Pages" section. There you will have a green section displaying "Your site is published at ...". The site is now deployed. 
+See [GitHub Pages documentation](https://docs.github.com/en/pages).
+## Running the Project Locally
 
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
@@ -146,13 +110,14 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 
 ## Credits
-
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
-
+All the text used in this project is made up by me. The brand, contact details, about information, is not real. The street address is real, but not connected to this project.
+[W3Schools](https://www.w3schools.com/) provided code to make a [responsive image grid](https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp) on gallery.html and a [responsive Iframe](https://www.w3schools.com/howto/howto_css_responsive_iframes.asp) to contact.html.
+I used and modified the code from [CSS Tricks](https://css-tricks.com/perfect-full-page-background-image/) in order to get full width backgrounds that is compatible and responsive.
+A styled [Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/) navbar and carousel was implemented in this project. Styled buttons and modals was also used from their library.
 ### Media
-- The photos used in this site were obtained from ...
-
+The images used in this project were downloaded from [Pexels](https://www.pexels.com/) and [Unsplash](https://unsplash.com/). 
 ### Acknowledgements
-
-- I received inspiration for this project from X
+My mentor Precious Ijege for guiding, support and pointing me in the right direction.
+The Code Institute slack channel for having discussion, questions and answers that contribute to my project.
+The web site that inspired my design to some degree  was [Sky Fitness](https://www.skyfitness.no/).
