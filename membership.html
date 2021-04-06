@@ -50,7 +50,7 @@
 
     <!--MEMBERSHIP ALTERNATIVES W/ BOOTSTRAP MODALS FOR LAPTOP ONLY-->
 
-    <div class="container-fluid enviroment running-container bg-dark">
+    <div class="container-fluid enviroment running-container bg-dark d-none d-md-block">
         <div class="row justify-content-center ">
             <div class="mt-5 g-3 d-none d-md-inline col-12 col-md-4 membership-1 text-center">
                 <p class="text-light membership-text lead">Nonbinding</p>
@@ -235,14 +235,55 @@
                 </div>
             </div>
         </div>
+    </div>
 
-        <!--MEMBERSHIP ALTERNATIVES FOR MOBILE-->
-
+    <!--MEMBERSHIP ALTERNATIVES FOR MOBILE-->
+    <div class="container-fluid d-md-none">
         <div class="row ropes d-md-none">
             <div class="mt-5 mx-auto col-12 col-md-6 membership-container text-center">
                 <p class="text-light lead">Nonbinding</p>
                 <p class="text-light lead">30 €/month</p>
-                <button type="button" class="bg-gradient btn btn-success btn-member">Choose</button>
+                 <button type="button" class="bg-gradient btn btn-success btn-member" data-bs-toggle="modal"
+                    data-bs-target="#modal5">Choose</button>
+                <div class="modal fade" id="modal5" tabindex="-1" aria-labelledby="modal5Label" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="modal5Label">Registration</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="text-start modal-body">
+                                <form>
+                                    <div class="mb-3">
+                                        <label for="full-name-5" class="col-form-label">Full Name</label>
+                                        <input type="text" class="form-control" id="full-name-5">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="address-5" class="col-form-label">Address</label>
+                                        <input type="text" class="form-control" id="address-5">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="post-code-5" class="col-form-label">Post Code</label>
+                                        <input type="text" class="form-control" id="post-code-5">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="phone-number-5" class="col-form-label">Phone Number</label>
+                                        <input type="text" class="form-control" id="phone-number-5">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="email-address-5" class="col-form-label">Email Address</label>
+                                        <input type="text" class="form-control" id="email-address-5">
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Register</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="mt- mx-auto col-12 col-md-6 membership-container text-center">
                 <p class="text-light lead">12 Month Contract</p>
