@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster:100,200,300,400,500,600,700');
 
-
-
-
-
 /*--Navbar--*/
 
 .styrk-logo {
@@ -17,12 +13,11 @@
 }
 
 .styrk-logo:visited {
-  text-decoration: none;
+    text-decoration: none;
 }
 
-
 .styrk-logo:active {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 .nav-dropdown:link {
@@ -33,9 +28,8 @@
     text-decoration: none;
 }
 
-
 .nav-link:active {
-  text-decoration: underline !important;
+    text-decoration: underline !important;
 }
 
 .nav-link {
@@ -47,12 +41,8 @@
     color: white !important;
 }
 
-
-
-
 /*--Footer--*/
 
-    
 .footer-logo {
     width: 150px;
 }
@@ -73,10 +63,9 @@
     color: #b8c6b2;
 }
 
-
 .instagram-icon:hover {
-  text-decoration: none;
-  color: white;
+    text-decoration: none;
+    color: white;
 }
 
 .instagram-icon:link {
@@ -87,7 +76,6 @@
     text-decoration: none;
 }
     
-
 .facebook-icon:hover {
     text-decoration: none;
     color: white;
@@ -101,8 +89,6 @@
     text-decoration: none;
 }
 
-
-
 /*--Index.html--*/
 
 /*--Hero image--*/
@@ -113,6 +99,8 @@
     margin-top: 65px;
 }
 
+/*--Full width background from https://css-tricks.com/perfect-full-page-background-image/--*/
+
 .col-deadlift {
     background: url(../images/deadlift1.jpg) no-repeat bottom center; 
     -webkit-background-size: cover;
@@ -122,6 +110,8 @@
     height: 68vh;
     margin-top: 70px; 
 }
+
+/*--Full width background from https://css-tricks.com/perfect-full-page-background-image/--*/
 
 .col-woman {
     background: url(../images/woman-squat-k.jpg) no-repeat center center; 
@@ -142,10 +132,7 @@
     text-align: center;
 }
 
-
-
 /*--Callout--*/
-
 
 /*--Bootstrap Carousel--*/
 
@@ -171,18 +158,9 @@
     margin-bottom: 15px;
 }
 
-
-
-/*--Sign up button--*/
-
-/*--Quotes--*/
-
-/*--Features--*/
-
-
-
-
 /*--Become a member section--*/
+
+/*--Full width background from https://css-tricks.com/perfect-full-page-background-image/--*/
 
 .fistbump-md {
     background: url(../images/fist-bump1-k.jpg) no-repeat center center; 
@@ -195,6 +173,7 @@
     overflow: hidden;
 }
 
+/*--Full width background from https://css-tricks.com/perfect-full-page-background-image/--*/
 
 .fistbump-sm {
     background: url(../images/fist-bump1-k.jpg) no-repeat center center; 
@@ -218,7 +197,6 @@
     margin-top: 100px;
 }
 
-
 /*--membership.html--*/
 
 .mt-member-lg {
@@ -230,69 +208,67 @@
 }
 
 .membership-container {
-height: 100px;
-width: 80%;
+    height: 100px;
+    width: 80%;
 }
 
 .membership-container-lg {
-height: 200px;
-
+    height: 200px;
 }
 
 .btn-member {
     background-color: #11613c;
 }
 
-
 .membership-text {
     font-size: 30px;
     font-weight: 200;
 }
 
+/*--Full width background from https://css-tricks.com/perfect-full-page-background-image/--*/
+
 .enviroment {
- background: url(../images/enviroment1-k.jpg) no-repeat center center fixed; 
+    background: url(../images/enviroment1-k.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     height: 100vh;
-    }
+}
 
-    .ropes {
- background: url(../images/ropes1-k.jpg) no-repeat center center fixed; 
+/*--Full width background from https://css-tricks.com/perfect-full-page-background-image/--*/
+
+.ropes {
+    background: url(../images/ropes1-k.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     height: 130vh;
-    }
+}
 
-
-    /*--gallery.html--*/
+/*--gallery.html--*/
 
 /*--responsive image grid from https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp--*/
 
-
 .row1 {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
-  margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    margin-top: 80px;
 }
 
-
 .column {
-  flex: 25%;
-  max-width: 25%;
-  padding: 0 4px;
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
 }
 
 .column img {
-  margin-top: 8px;
-  vertical-align: middle;
-  width: 100%;
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
 }
-
 
 @media screen and (max-width: 800px) {
   .column {
@@ -300,7 +276,6 @@ height: 200px;
     max-width: 50%;
   }
 }
-
 
 @media screen and (max-width: 600px) {
   .column {
@@ -315,60 +290,54 @@ height: 200px;
     margin-top: 90px;
 }
 
-    .about-trainer {
-       max-height: 400px;
+.about-trainer {
+    max-height: 400px;
         
-    }
+}
 
-    .h3-about{
+.h3-about{
     color: #b8c6b2;
-    }
+}
 
-    .p-about-lg {
-        color: #b8c6b2;
-        font-size: 20px;
-    }
+.p-about-lg {
+    color: #b8c6b2;
+    font-size: 20px;
+}
 
-    .p-about-sm {
-        color: #b8c6b2;
-        font-size: 17px;
-    }
-
-    
-
+.p-about-sm {
+    color: #b8c6b2;
+    font-size: 17px;
+}
 
  /*--contact.html--*/
 
-
-    .container-contact {
-        color: #b8c6b2;
-        max-width: 700px;
-        margin-top: 80px;
-    }
-/*--responsive iframe from W3 school https://www.w3schools.com/howto/howto_css_responsive_iframes.asp--*/
-    
-
-.container-google-map {
-  position: relative;
-  width: 100%;
-  overflow: hidden;
-  padding-top: 56.25%; 
-  height: 47vh;
+.container-contact {
+    color: #b8c6b2;
+    max-width: 700px;
+    margin-top: 80px;
 }
 
-
+/*--responsive iframe from W3 school https://www.w3schools.com/howto/howto_css_responsive_iframes.asp--*/
+    
+.container-google-map {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 56.25%; 
+    height: 47vh;
+}
 
 .responsive-iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  width: 100%;
-  max-width: 700px;
-  height: 100%;
-  max-height: 500px;
-  border: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    max-width: 700px;
+    height: 100%;
+    max-height: 500px;
+    border: none;
 }
 
 /*--responsive iframe from W3 school https://www.w3schools.com/howto/howto_css_responsive_iframes.asp--*/
