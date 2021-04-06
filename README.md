@@ -18,23 +18,25 @@ The goal of this project is to let the user know that this gym is leaning toward
 The users of this site will be non-members and members.
 
 As a non-member of this gym, I want:
-- To get a quick first impression of what type of gym this is.
-- To see the pricing information. Can I expect any starting fees a campain or deals?
-- To see how the gym looks like.
-- To get an idea of what the type of members this gym has. 
-- To know the opening hours of this gym.
-- To know what kind of equipment this gym has.
-- To know who is running this gym, do they have personal trainers?
-- What can I expect to get/learn/experience from this gym. Do they have any classes?
+
+- As a non-member, I want to get a quick first impression so that I will get an idea of what kind of gym this is.
+- As a non-member, I want to see the pricing information so that I know what I get and pay for.
+- As a non-member, I want to see how the gym looks like, so that I know if it is the right place for me.
+- As a non-member, I want to know what type of members this gym has, so that I feel this comfortable in this gym. 
+- As a non-member, I want to know the opening hours of this gym, so that I know it suits my schedule.
+- As a non-member, I want to know what kind of equipment this gym has, so that I can train with the equipment I want to train with.
+- As a non-member, I want to know who is running this gym, so that I can learn more about the owner.
+- As a non-member,  I want to know what to get/learn/experience from this gym. Do they have any classes?
 
 As a member of this gym, I want:
 
-- To see membership alternatives.
-- To find the contact information of this gym.
-- The ability to see this gym on social media. 
-- To know the opening hours of the gym.
-- To learn more about the staff.
-- To learn more about the training classes they provide.
+- As a member , I want to see membership alternatives, so that I know what is included and so that I know I have the right membership.
+- As a member , I want to find the contact information of this gym, so that I can contact the gym.
+- As a member , I want the ability to see this gym on social media, so that I can see and learn more about the gym and the people who train there. 
+- As a member , I want to know the opening hours of the gym, so that I know I can train when I want to.
+- As a member, I want to learn more about the staff, so I know who they are and their skills/experience.
+- As a member , I want to learn more about the training classes they provide, so that I can think about joining one.
+
 
 ## Wireframes
 

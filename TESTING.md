@@ -72,63 +72,68 @@ The users of this site will be non-members and members.
 
 As a non-member of this gym, I want:
 
-To get a quick first impression of what type of gym this is.
+As a non-member, I want to get a quick first impression so that I will get an idea of what kind of gym this is
 
 - On the **home page** the user will see either a woman or a man training with a barbell. On desktop the viewer can clearly see both the carousel with quotes and the list with the gym's features. And on mobile devices the user can see the carousel with qutoes. All of this will give some impressions that hopefully are in line with the project goals.
 
-To see the pricing information. Can I expect any starting fees a campain or deals?
+As a non-member, I want to see the pricing information so that I know what I get and pay for.
 
 - On the **landing page** there is a call out saying "First month is free!". Also, if the user click on the **sign up button** on the top or bottom of the **home page**, they will be directed to the **membership page**. Here they find pricing information. 
 
-To see how the gym looks like.
+As a non-member, I want to see how the gym looks like, so that I know if it is the right place for me.
 
 - The user will get a glimpse of how the gym looks like on the home page and the membership page, but mostly on the **gallery page**.
 
-To get an idea of what the type of members this gym has. 
+As a non-member, I want to know what type of members this gym has, so that I feel this comfortable in this gym. 
 
 - The images across all pages gives an idea of the gyms member, but mostly when looking in the **gallery**. Also, the carousel on the **home page** containing quotes will show the feedback of four members.
 
-To know the opening hours of this gym.
+As a non-member, I want to know the opening hours of this gym, so that I know it suits my schedule.
 
 - If the user scrolls down a bit on the **home page** on mobile device, the opening hours will show as part of the features list. On tablets and larger devices, the user doesn't have to scroll to see the opening hours.
 
-To find the contact information of this gym.
+As a non-member, I want to find the contact information of this gym, so that I can contact them if I want to.
 
 - The user can find contact details in the **footer**, and also on the **contact page**.
 
-To know what kind of equipment this gym has.
+As a non-member, I want to know what kind of equipment this gym has, so that I can train with the equipment I want to train with.
 
 - On the **gallery page** the users can see different kind of equipments.
 
-To know who is running this gym, do they have personal trainers?
+As a non-member, I want to know who is running this gym, so that I can learn more about the owner.
 
 - On the **landing page** there is information about the gym having "Certified personal trainers". If the user navigates to the **about us page**, they can learn about the owner and trainers.
 
-What can I expect to get/learn/experience from this gym. Do they have any classes?
+As a non-member,  I want to know what to get/learn/experience from this gym. Do they have any classes?
 
 - The user can expect to learn barbell movements from certified personal trainers, with either "one-on-one personal training", or on the "barbell basics group course". This is listed in the feature section of the **home page** and also on the **membership page**. 
 
 As a member of this gym, I want:
 
-To see membership alternatives.
+As a member , I want to see membership alternatives, so that I know what is included and so that I know I have the right membership.
 
 - The member of this gym can view membership alternatives in the **membership page**.
 
-To find the contact information of this gym.
+As a member , I want to find the contact information of this gym, so that I can contact the gym.
 
 - The member of this gym can find contact information in the **contact page**, or look at the info in the **footer**.
 
-The ability to see this gym on social media. 
+As a member , I want the ability to see this gym on social media, so that I can see and learn more about the gym and the people who train there. 
 
 - The member can click on the links in the **footer** to both instagram and facebook.
 
-To know the opening hours of the gym.
+As a member , I want to know the opening hours of the gym, so that I know I can train when I want to.
 
 - The member can see the opening hours in the feature section of the **home page**.
 
-To learn more about the staff.
+As a member, I want to learn more about the staff, so I know who they are and their skills/experience.
 
 - The member can learn more about the staff in the **about us page**.
+
+As a member , I want to learn more about the training classes they provide, so that I can think about joining one.
+
+- The member can either see on the **home page** that the gym provides one-on-one personal training and a barbell basics group course, or click on the **membership** page. Here the member can learn that they have 1x free PT session and the barbell course is included in the membership.
+
 
 
 ## Bugs
