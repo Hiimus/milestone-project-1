@@ -127,7 +127,8 @@ To learn more about the staff.
 
 ## Bugs
 
-Memberships: The biggest issue I had on this project was an issue with modals. I had working modals for the membership.html page, but on mobile it was not working. When I clicked the button to activate the modal, I would only get the dark modal background. I tried many different things to make it work, tried youtube, google, stack overflow and more. No results. Finally, after sleeping on it, I realized that the id # was unique for the tablet and desktop, but not for mobile. When I created a unique ID for mobile, it was working.
+Memberships: The biggest issue I had on this project was an issue with modals. I had working modals for the membership.html page, but on mobile it was not working. When I clicked the button to activate the modal, I would only get the dark modal background. I tried many different things to make it work, tried youtube, google, stack overflow and more. No results. Finally, after sleeping on it, I realized that the id # was unique for the tablet and desktop, but not for mobile. When I created a unique ID for mobile, it was working. See screenshots below for visual explanation.
+![modal issue](readme-images/issue-modal.JPG) 
 
 Grid system:  I spent a lot of time trying to understand how the grid system worked. I could never manage to position elements at the right place and columns weren't the size I wanted them to be. I found it hard to use, and went back and forth to using the container-row-column hierarchy and d-flex/flexbox. After reading the bootstrap documentation and after some failing, I finally learned how to use them both. I ended up with using mostly container-row-column hierarchy.
 
