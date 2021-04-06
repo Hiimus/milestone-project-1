@@ -21,6 +21,11 @@ Test score after improvements:
 
 ![google lightouse test](readme-images/testing-1.JPG)
 
+Also took a look on how to improve the SEO score. [This link](https://web.dev/meta-description/) provided me with information about meta description. After I added meta description to all my pages, SEO score was good:
+
+![google lightouse test](readme-images/lighthouse-desktop-after-meta.JPG)
+
+
 ## Code Validators
 
 [W3C HTML Validator by Direct input](https://www.validator.w3.org/) 
@@ -65,65 +70,66 @@ Tools that were used to check for responsiveness was [Responsive Design Checker]
 
 The users of this site will be non-members and members.
 
-As a **non-member** of this gym, I want:
+As a non-member of this gym, I want:
 
-To get a quick first impression of what type of gym this is:
+To get a quick first impression of what type of gym this is.
 
-- On the home page the user will see either a woman or a man training with a barbell. On desktop the viewer can clearly see both the carousel with quotes and the list with the gym's features. And on mobile devices the user can see the carousel with qutoes. All of this will give some impressions that hopefully are in line with the project goals.
+- On the **home page** the user will see either a woman or a man training with a barbell. On desktop the viewer can clearly see both the carousel with quotes and the list with the gym's features. And on mobile devices the user can see the carousel with qutoes. All of this will give some impressions that hopefully are in line with the project goals.
 
 To see the pricing information. Can I expect any starting fees a campain or deals?
 
-- On the landing page there is a call out saying "First month is free!". Also, if the user click on the sign up button on the top or bottom of the home page, they will be directed to the membership page. Here they find pricing information. 
+- On the **landing page** there is a call out saying "First month is free!". Also, if the user click on the **sign up button** on the top or bottom of the **home page**, they will be directed to the **membership page**. Here they find pricing information. 
 
 To see how the gym looks like.
 
-- The user will get a glimpse of how the gym looks like on the home page and the membership page, but mostly on the gallery page.
+- The user will get a glimpse of how the gym looks like on the home page and the membership page, but mostly on the **gallery page**.
 
 To get an idea of what the type of members this gym has. 
 
-- The images across all pages gives an idea of the gyms member, but mostly when looking in the gallery. Also, the carousel containing quotes will show the feedback of four members.
+- The images across all pages gives an idea of the gyms member, but mostly when looking in the **gallery**. Also, the carousel on the **home page** containing quotes will show the feedback of four members.
 
 To know the opening hours of this gym.
 
-- If the user scrolls down a bit on mobile device, the opening hours will show as part of the features list. On tablets and larger devices, the user doesn't have to scroll to see the opening hours.
+- If the user scrolls down a bit on the **home page** on mobile device, the opening hours will show as part of the features list. On tablets and larger devices, the user doesn't have to scroll to see the opening hours.
 
 To find the contact information of this gym.
 
-- The user can find contact details in the footer, and also on the contact page.
+- The user can find contact details in the **footer**, and also on the **contact page**.
 
 To know what kind of equipment this gym has.
 
-- On the gallery page the users can see different kind of equipments.
+- On the **gallery page** the users can see different kind of equipments.
 
 To know who is running this gym, do they have personal trainers?
 
-- On the landing page there is information about the gym having "Certified personal trainers". If the user navigates to the about us page, they can learn about the owner and trainers.
+- On the **landing page** there is information about the gym having "Certified personal trainers". If the user navigates to the **about us page**, they can learn about the owner and trainers.
 
 What can I expect to get/learn/experience from this gym. Do they have any classes?
 
-- The user can expect to learn barbell movements from certified personal trainers, with either "one-on-one personal training", or on the "barbell basics group course". This is listed in the feature section of the home page. 
+- The user can expect to learn barbell movements from certified personal trainers, with either "one-on-one personal training", or on the "barbell basics group course". This is listed in the feature section of the **home page** and also on the **membership page**. 
 
-As a **member** of this gym, I want:
+As a member of this gym, I want:
 
 To see membership alternatives.
 
-- The member of this gym can view membership alternatives in the membership page.
+- The member of this gym can view membership alternatives in the **membership page**.
 
 To find the contact information of this gym.
 
-- The member of this gym can find contact information in the contact page, or look at the info in the footer.
+- The member of this gym can find contact information in the **contact page**, or look at the info in the **footer**.
 
 The ability to see this gym on social media. 
 
-- The member can click on the links in the footer to both instagram and facebook.
+- The member can click on the links in the **footer** to both instagram and facebook.
 
 To know the opening hours of the gym.
 
-- The member can see the opening hours in the feature section of the home page.
+- The member can see the opening hours in the feature section of the **home page**.
 
 To learn more about the staff.
 
-- The member can learn more about the staff in the about us page.
+- The member can learn more about the staff in the **about us page**.
+
 
 ## Bugs
 
