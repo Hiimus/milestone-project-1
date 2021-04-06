@@ -5,6 +5,8 @@
 
 ### Styrk Gym is a strength training gym for everyone that loves lifting, with special focus on compound movements using mainly the beloved barbell. Styrk's owner is Frode, and he has two certified personal trainers, Arne and Pia, working for him. They all share the love for the iron, and their combined experience will give any member good results.
 
+To visit the deployed website, click [here](https://hiimus.github.io/milestone-project-1/index.html)
+
 ## UX
 
 ### Project goals
@@ -169,7 +171,7 @@ The images used in this project were downloaded from [Pexels](https://www.pexels
 
 ### Acknowledgements
 
-My mentor Precious Ijege for guiding, support and pointing me in the right direction.
+My mentor [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/) for guiding, support and pointing me in the right direction.
 The Code Institute slack channel for having discussion, questions and answers that contribute to my project.
 [Stack Overflow](https://stackoverflow.com/) for helping me understanding and solving issues along the way.
 The web site that inspired my design to some degree  was [Sky Fitness](https://www.skyfitness.no/).
