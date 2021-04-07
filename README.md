@@ -11,7 +11,7 @@ To visit the deployed website, click [here](https://hiimus.github.io/milestone-p
 
 ### Project goals
 
-The goal of this project is to let the user know that this gym is leaning towards barbell strength training. One of the goals is to get attention and interest even though the user doesn't have much or any experience with this type of training. Styrk Gym is a place that welcomes all types of people. Compared to other gyms, Styrk is more leaned towards compound movements and the sport of lifting. Here, the user can expect squat racks, benches, open spaces  and more. And not rows of treadmills, bikes and your typical cardio equipment. 
+The goal of this project is to attract and retain new members. Another goal is to let the user know that this gym is leaning towards barbell strength training. This project wants to get attention and interest even though the user doesn't have much or any experience with this type of training. Styrk Gym is a place that welcomes all types of people. Here, the user can expect squat racks, benches, open spaces and more. 
 
 ## User Stories
 
@@ -22,20 +22,20 @@ As a non-member of this gym, I want:
 - As a non-member, I want to get a quick first impression so that I will get an idea of what kind of gym this is.
 - As a non-member, I want to see the pricing information so that I know what I get and pay for.
 - As a non-member, I want to see how the gym looks, so that I know if it is the right place for me.
-- As a non-member, I want to know what type of members this gym has, so that I feel this comfortable in this gym. 
+- As a non-member, I want to know what type of members this gym has, so that I feel comfortable in this gym. 
 - As a non-member, I want to know the opening hours of this gym, so that I know it suits my schedule.
 - As a non-member, I want to know what kind of equipment this gym has, so that I can train with the equipment I want to train with.
 - As a non-member, I want to know who is running this gym, so that I can learn more about the owner.
-- As a non-member,  I want to know what to get/learn/experience from this gym. Do they have any classes?
+- As a non-member,  I want to know what to get/learn/experience from this gym, so that I can learn something new and get value for my money.
 
 As a member of this gym, I want:
 
-- As a member , I want to see membership alternatives, so that I know what is included and so that I know I have the right membership.
-- As a member , I want to find the contact information of this gym, so that I can contact the gym.
-- As a member , I want the ability to see this gym on social media, so that I can see and learn more about the gym and the people who train there. 
-- As a member , I want to know the opening hours of the gym, so that I know I can train when I want to.
+- As a member, I want to see membership alternatives, so that I know what is included and so that I know I have the right membership.
+- As a member, I want to find the contact information of this gym, so that I can contact the gym.
+- As a member, I want the ability to see this gym on social media, so that I can see and learn more about the gym and the people who train there. 
+- As a member, I want to know the opening hours of the gym, so that I know I can train when I want to.
 - As a member, I want to learn more about the staff, so I know who they are and their skills/experience.
-- As a member , I want to learn more about the training classes they provide, so that I can think about joining one.
+- As a member, I want to learn more about the training classes they provide, so that I can think about joining one.
 
 
 ## Wireframes
@@ -48,7 +48,8 @@ To make [wireframes](/wireframes), I used [Balsamiq](https://balsamiq.com/).
 
 #### Header
 
-- Navbar: Contains the brand name and links in desktop view, and a dropdown menu for tablets and smaller screen sizes. The navbar allows the user to intuitively navigate the site. The font for the brand name is "Lobster". The reason behind this is because it is playful and non-formal, which is what I was looking for. I looked for a color with the color picker in Chrome DevTools, and I chose the HEX color #b8c6b2. It personally just looks good.
+- Navbar: Contains the brand name and links in desktop view, and a dropdown menu for tablets and smaller screen sizes. The navbar allows the user to intuitively navigate the site. The font for the brand name is "Lobster". The reason behind this is because it is playful and non-formal, which is what I was looking for. I looked for a color with the color picker in Chrome DevTools, and I chose the HEX color #b8c6b2. It personally just looks good and has a nice contrast to the dark #212529 background. See the screenshots below for these colors.
+![Colors in the header](readme-images/colors.JPG)
 
 #### Footer: 
 
@@ -73,7 +74,7 @@ At the bottom, above the footer, there is an image of two members bumping fists 
 
 The membership page has a background image, in mobile view, of a guy training with ropes. This was selected because it is a cool portrait oriented training image. In order to let the text and buttons have better contrast, the image was edited with a filter to make it darker. On tablet size and larger, there is an image of a general training environment. Once again, the image is edited with a darker filter, in order to see the text better.
 
-There are four different membership alternatives, which can give more flexibility to a potential member. Students are offered lower prices, and if someone just wants to give this gym a try, that is possible with the "Drop-in" alternative.
+There are four different membership alternatives, which can give more flexibility to a potential member. Students are offered lower prices, and if someone just wants to give this gym a try, that is possible with the "Drop-in" alternative. Below each alternative, the memberships lists what is included in the price.
 
 The text has the bootstrap class lead. 
 
@@ -83,7 +84,7 @@ The gallery contains a responsive image grid. There are a variety of images that
 
 #### about-us.html:
 
-In the about page, there is the gym owner, Frode, Arne and Pia. They are presented in a positive manner.  
+In the about page, there is the gym owner, Frode, Arne and Pia. They are presented in a positive manner, and can give the user a feeling of being in good hands.  
 #### contact.html:
 
 The contact page has information the user might want to know. A google map is displaying the location of the gym. 
@@ -94,7 +95,7 @@ The contact page has information the user might want to know. A google map is di
 
 - Membership: Having the users fill in a form when they click the "Choose" button.
 
-- More information about Styrk's "one-on-one personal training" and "barbell basics group course".
+- A page dedicated to inform about Styrk's "one-on-one personal training" and "barbell basics group course".
 ## Technologies Used
 
 ### Tools:

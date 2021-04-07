@@ -7,7 +7,7 @@ Google's Lighthouse Test in Chrome Devtools:
 How to test with Google Lighthouse:
 
 1. Open Chrome DevTools.
-2. Click on "Lighthouse in the small navigation menu.
+2. Click on "Lighthouse" in the small navigation menu.
 3. Check the boxes on the right to select what you want to test.
 4. Click on the blue label "Generate report".
 
@@ -28,7 +28,7 @@ Also took a look on how to improve the SEO score. [This link](https://web.dev/me
 
 ## Code Validators
 
-[W3C HTML Validator by Direct input](https://www.validator.w3.org/) 
+[W3C HTML Validator by Direct input](https://validator.w3.org/) 
 
 - index.html results: No errors or warnings to show.
 
@@ -104,25 +104,25 @@ As a non-member, I want to know who is running this gym, so that I can learn mor
 
 - On the **landing page** there is information about the gym having "Certified personal trainers". If the user navigates to the **about us page**, they can learn about the owner and trainers.
 
-As a non-member,  I want to know what to get/learn/experience from this gym. Do they have any classes?
+As a non-member,  I want to know what to get/learn/experience from this gym, so that I can learn something new and get value for my money.
 
 - The user can expect to learn barbell movements from certified personal trainers, with either "one-on-one personal training", or on the "barbell basics group course". This is listed in the feature section of the **home page** and also on the **membership page**. 
 
 As a member of this gym, I want:
 
-As a member , I want to see membership alternatives, so that I know what is included and so that I know I have the right membership.
+As a member, I want to see membership alternatives, so that I know what is included and so that I know I have the right membership.
 
 - The member of this gym can view membership alternatives in the **membership page**.
 
-As a member , I want to find the contact information of this gym, so that I can contact the gym.
+As a member, I want to find the contact information of this gym, so that I can contact the gym.
 
 - The member of this gym can find contact information in the **contact page**, or look at the info in the **footer**.
 
-As a member , I want the ability to see this gym on social media, so that I can see and learn more about the gym and the people who train there. 
+As a member, I want the ability to see this gym on social media, so that I can see and learn more about the gym and the people who train there. 
 
 - The member can click on the links in the **footer** to both instagram and facebook.
 
-As a member , I want to know the opening hours of the gym, so that I know I can train when I want to.
+As a member, I want to know the opening hours of the gym, so that I know I can train when I want to.
 
 - The member can see the opening hours in the feature section of the **home page**.
 
@@ -130,7 +130,7 @@ As a member, I want to learn more about the staff, so I know who they are and th
 
 - The member can learn more about the staff in the **about us page**.
 
-As a member , I want to learn more about the training classes they provide, so that I can think about joining one.
+As a member, I want to learn more about the training classes they provide, so that I can think about joining one.
 
 - The member can either see on the **home page** that the gym provides one-on-one personal training and a barbell basics group course, or click on the **membership** page. Here the member can learn that they have 1x free PT session and the barbell course is included in the membership.
 
@@ -138,12 +138,13 @@ As a member , I want to learn more about the training classes they provide, so t
 
 ## Bugs
 
-Memberships: The biggest issue I had on this project was an issue with modals. I had working modals for the membership.html page, but on mobile it was not working. When I clicked the button to activate the modal, I would only get the dark modal background. I tried many different things to make it work, tried youtube, google, stack overflow and more. No results. Finally, after sleeping on it, I realized that the id # was unique for the tablet and desktop, but not for mobile. When I created a unique ID for mobile, it was working. See screenshots below for visual explanation.
+Memberships: The biggest issue I had on this project was an issue with modals. I had working modals for the membership.html page, but on mobile it was not working. When I clicked the button to activate the modal, I would only get the dark modal background. I tried many different things to make it work, tried youtube, google, stack overflow and more. No results. Finally, after sleeping on it, I realized that the id # was unique for the tablet and desktop, but not for mobile. When I created a unique ID for mobile, it was working. See screenshots below for visual explanation of what happened when I clicked the modal on mobile device.
+
 ![modal issue](readme-images/issue-modal.JPG) 
 
-Grid system:  I spent a lot of time trying to understand how the grid system worked. I could never manage to position elements at the right place and columns weren't the size I wanted them to be. I found it hard to use, and went back and forth to using the container-row-column hierarchy and d-flex/flexbox. After reading the bootstrap documentation and after some failing, I finally learned how to use them both. I ended up using mostly container-row-column hierarchy.
+Grid system:  I spent a lot of time trying to understand how the grid system worked. I could never manage to position elements at the right place and columns weren't the size I wanted them to be. I found it hard to use, and went back and forth to using the container-row-column hierarchy and d-flex/flexbox. After re-watching CI instructional videos and reading the bootstrap documentation, I finally learned how to use them both. I ended up using mostly container-row-column hierarchy.
 
-Gallery: First I used a bootstrap carousel to view images in the gallery page. The images were way too big, and it didn't seem right. After some googling I ended up with a responsive image grid system that both worked and looked better. 
+Gallery: First I used a bootstrap carousel to view images in the gallery page. The images were way too big, and it didn't seem right. After some googling I ended up with a [responsive image grid](https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp) system that both worked and looked better. 
 
 Image sizes: As mentioned in the google lighthouse test, I had all my images in original size, affecting the performance in a bad way. I reduced all the image sizes in Microsoft Paint while keeping the aspect ratio.  
 
