@@ -5,7 +5,7 @@
 
 ### Styrk Gym is a strength training gym for everyone that loves lifting, with special focus on compound movements using mainly the beloved barbell. Styrk's owner is Frode, and he has two certified personal trainers, Arne and Pia, working for him. They all share the love for the iron, and their combined experience will give any member good results.
 
-To visit the deployed website, click [here](https://hiimus.github.io/milestone-project-1/index.html)
+To visit the deployed website, click [here](https://hiimus.github.io/milestone-project-1/)
 
 ## UX
 
