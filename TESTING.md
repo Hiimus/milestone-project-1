@@ -13,17 +13,17 @@ How to test with Google Lighthouse:
 
 Test score first test:
 
-![google lightouse test](readme-images/testing.JPG)
+![google lighthouse test](readme-images/testing.JPG)
 
-I got a score of 71 on performance. The reason behind this was because I had lots of images, and they where all original size. That was affecting the sites performance. After i had that sorted, the performance score improved.
+I got a score of 71 on performance. The reason behind this was because I had lots of images, and they were all original size. That was affecting the site's performance. After I had that sorted, the performance score improved.
 
 Test score after improvements:
 
-![google lightouse test](readme-images/testing-1.JPG)
+![google lighthouse test](readme-images/testing-1.JPG)
 
 Also took a look on how to improve the SEO score. [This link](https://web.dev/meta-description/) provided me with information about meta description. After I added meta description to all my pages, SEO score was good:
 
-![google lightouse test](readme-images/lighthouse-desktop-after-meta.JPG)
+![google lighthouse test](readme-images/lighthouse-desktop-after-meta.JPG)
 
 
 ## Code Validators
@@ -58,7 +58,7 @@ Also took a look on how to improve the SEO score. [This link](https://web.dev/me
 
 ## Responsiveness
 
-Tools that were used to check for responsiveness was [Responsive Design Checker](https://www.responsivedesignchecker.com/) and [Chrome DevTools](https://developer.chrome.com/docs/devtools/).
+Tools that were used to check for responsiveness were [Responsive Design Checker](https://www.responsivedesignchecker.com/) and [Chrome DevTools](https://developer.chrome.com/docs/devtools/).
 
 ![responsiveness test](readme-images/responsiveness-test.JPG)
 
@@ -74,13 +74,13 @@ As a non-member of this gym, I want:
 
 As a non-member, I want to get a quick first impression so that I will get an idea of what kind of gym this is
 
-- On the **home page** the user will see either a woman or a man training with a barbell. On desktop the viewer can clearly see both the carousel with quotes and the list with the gym's features. And on mobile devices the user can see the carousel with qutoes. All of this will give some impressions that hopefully are in line with the project goals.
+- On the **home page** the user will see either a woman or a man training with a barbell. On desktop the viewer can clearly see both the carousel with quotes and the list with the gym's features. And on mobile devices the user can see the carousel with quotes. All of this will give some impressions that hopefully are in line with the project goals.
 
 As a non-member, I want to see the pricing information so that I know what I get and pay for.
 
 - On the **landing page** there is a call out saying "First month is free!". Also, if the user click on the **sign up button** on the top or bottom of the **home page**, they will be directed to the **membership page**. Here they find pricing information. 
 
-As a non-member, I want to see how the gym looks like, so that I know if it is the right place for me.
+As a non-member, I want to see how the gym looks, so that I know if it is the right place for me.
 
 - The user will get a glimpse of how the gym looks like on the home page and the membership page, but mostly on the **gallery page**.
 
@@ -90,7 +90,7 @@ As a non-member, I want to know what type of members this gym has, so that I fee
 
 As a non-member, I want to know the opening hours of this gym, so that I know it suits my schedule.
 
-- If the user scrolls down a bit on the **home page** on mobile device, the opening hours will show as part of the features list. On tablets and larger devices, the user doesn't have to scroll to see the opening hours.
+- If the user scrolls down a bit on the **home page** on mobile devices, the opening hours will show as part of the features list. On tablets and larger devices, the user doesn't have to scroll to see the opening hours.
 
 As a non-member, I want to find the contact information of this gym, so that I can contact them if I want to.
 
@@ -98,7 +98,7 @@ As a non-member, I want to find the contact information of this gym, so that I c
 
 As a non-member, I want to know what kind of equipment this gym has, so that I can train with the equipment I want to train with.
 
-- On the **gallery page** the users can see different kind of equipments.
+- On the **gallery page** the users can see different kinds of equipment.
 
 As a non-member, I want to know who is running this gym, so that I can learn more about the owner.
 
@@ -141,9 +141,9 @@ As a member , I want to learn more about the training classes they provide, so t
 Memberships: The biggest issue I had on this project was an issue with modals. I had working modals for the membership.html page, but on mobile it was not working. When I clicked the button to activate the modal, I would only get the dark modal background. I tried many different things to make it work, tried youtube, google, stack overflow and more. No results. Finally, after sleeping on it, I realized that the id # was unique for the tablet and desktop, but not for mobile. When I created a unique ID for mobile, it was working. See screenshots below for visual explanation.
 ![modal issue](readme-images/issue-modal.JPG) 
 
-Grid system:  I spent a lot of time trying to understand how the grid system worked. I could never manage to position elements at the right place and columns weren't the size I wanted them to be. I found it hard to use, and went back and forth to using the container-row-column hierarchy and d-flex/flexbox. After reading the bootstrap documentation and after some failing, I finally learned how to use them both. I ended up with using mostly container-row-column hierarchy.
+Grid system:  I spent a lot of time trying to understand how the grid system worked. I could never manage to position elements at the right place and columns weren't the size I wanted them to be. I found it hard to use, and went back and forth to using the container-row-column hierarchy and d-flex/flexbox. After reading the bootstrap documentation and after some failing, I finally learned how to use them both. I ended up using mostly container-row-column hierarchy.
 
-Gallery: First I used a bootstrap carousel to view images in the gallery page. The images were way to big, and it didn't seem right. After some googling I ended up with a responsive image grid system that both worked and looked better. 
+Gallery: First I used a bootstrap carousel to view images in the gallery page. The images were way too big, and it didn't seem right. After some googling I ended up with a responsive image grid system that both worked and looked better. 
 
 Image sizes: As mentioned in the google lighthouse test, I had all my images in original size, affecting the performance in a bad way. I reduced all the image sizes in Microsoft Paint while keeping the aspect ratio.  
 

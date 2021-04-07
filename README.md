@@ -11,7 +11,7 @@ To visit the deployed website, click [here](https://hiimus.github.io/milestone-p
 
 ### Project goals
 
-The goal of this project is to let the user know that this gym is leaning towards barbell strength training. One of the goals is to get attention and interest even though the user doesn't have much or any experience with this type of training. Styrk Gym is a place that welcomes all types of people. Compared to other gyms, Styrk is more leaned towards compound movements and the sport of lifting. Here, the user can expect squat racks, benches, open spaces  and more. And not rows of threadmills, bikes and your typical cardio equipment. 
+The goal of this project is to let the user know that this gym is leaning towards barbell strength training. One of the goals is to get attention and interest even though the user doesn't have much or any experience with this type of training. Styrk Gym is a place that welcomes all types of people. Compared to other gyms, Styrk is more leaned towards compound movements and the sport of lifting. Here, the user can expect squat racks, benches, open spaces  and more. And not rows of treadmills, bikes and your typical cardio equipment. 
 
 ## User Stories
 
@@ -21,7 +21,7 @@ As a non-member of this gym, I want:
 
 - As a non-member, I want to get a quick first impression so that I will get an idea of what kind of gym this is.
 - As a non-member, I want to see the pricing information so that I know what I get and pay for.
-- As a non-member, I want to see how the gym looks like, so that I know if it is the right place for me.
+- As a non-member, I want to see how the gym looks, so that I know if it is the right place for me.
 - As a non-member, I want to know what type of members this gym has, so that I feel this comfortable in this gym. 
 - As a non-member, I want to know the opening hours of this gym, so that I know it suits my schedule.
 - As a non-member, I want to know what kind of equipment this gym has, so that I can train with the equipment I want to train with.
@@ -59,7 +59,7 @@ The header and the footer are the same across all pages.
 
 #### index.html: 
 
-The home page has two different hero images. On tablet and larger view, there is a background of a woman squatting with a barbell. This image is selected because it lets the user know straight away what this site is about. It was also selected because it is a woman, and that might increase interest among female users. In mobile view, the hero image is of a man deadlifting. Again, it lets the user know what this is about. The goal is also to show that this gym mainly uses barbells as a lifting tool.
+The home page has two different hero images. On a tablet and larger view, there is a background of a woman squatting with a barbell. This image is selected because it lets the user know straight away what this site is about. It was also selected because it is a woman, and that might increase interest among female users. In mobile view, the hero image is of a man deadlifting. Again, it lets the user know what this is about. The goal is also to show that this gym mainly uses barbells as a lifting tool.
 
 Positioned over the hero images, is a callout that says the first month is free, and a green sign up button. It is one of the first things the users see, and could help to increase the gym's members. If the sign up button is clicked, the user will be directed to the membership page.
 
@@ -67,11 +67,11 @@ Below the hero image, there is a bootstrap carousel containing quotes from membe
 
 Below the carousel, there is a section which lists the gym's many features in the bootstrap font class "lead". This class makes the features look more appealing to the user. There is a green "check" icon in front of each feature. In this list there is mentioned things that a user might want to know, and to expect from a gym.
 
-At the bottom, above the footer, there is an image of two members bumping fists after a workout set. This can give the user an impression of good a enviroment. There is also a "Become a member today!" in the "Lobster" font to once again remind the user to click on the sign up button. Once clicked, the user will be directed to the membership page.
+At the bottom, above the footer, there is an image of two members bumping fists after a workout set. This can give the user an impression of a good environment. There is also a "Become a member today!" in the "Lobster" font to once again remind the user to click on the sign up button. Once clicked, the user will be directed to the membership page.
 
 #### membership.html:
 
-The membership page has a background image, in mobile view, of a guy training with ropes. This was selected because it is a cool portrait oriented training image. In order to let the text and buttons have better contrast, the image was edited with a filter to make it darker. On tablet size and larger, there is an image of a general training enviroment. Once again, the image is edited with a darker filter, in order to see the text better.
+The membership page has a background image, in mobile view, of a guy training with ropes. This was selected because it is a cool portrait oriented training image. In order to let the text and buttons have better contrast, the image was edited with a filter to make it darker. On tablet size and larger, there is an image of a general training environment. Once again, the image is edited with a darker filter, in order to see the text better.
 
 There are four different membership alternatives, which can give more flexibility to a potential member. Students are offered lower prices, and if someone just wants to give this gym a try, that is possible with the "Drop-in" alternative.
 
@@ -79,7 +79,7 @@ The text has the bootstrap class lead.
 
 #### gallery.html:
 
-The gallery contains a responsive image grid. There is a variety of images that show equipment, people traning, stretching and just hanging out. The image grid lets a user get a quick overview compared to a carousel, which was the original plan.
+The gallery contains a responsive image grid. There are a variety of images that show equipment, people training, stretching and just hanging out. The image grid lets a user get a quick overview compared to a carousel, which was the original plan.
 
 #### about-us.html:
 
@@ -101,7 +101,7 @@ The contact page has information the user might want to know. A google map is di
 
 - [Gitpod](https://www.gitpod.io/) used as IDE.
 
-- [GitHub](https://github.com/) used to store and share reposetory.
+- [GitHub](https://github.com/) used to store and share repository.
 
 - [Git](https://git-scm.com/) for version control.
 
@@ -117,7 +117,7 @@ The contact page has information the user might want to know. A google map is di
  
 - [Coolors](https://coolors.co/), a handy tool for deciding on what colors go well together.
  
-- [Am I Responsive](http://ami.responsivedesign.is/), a tool that view the site on various devices.
+- [Am I Responsive](http://ami.responsivedesign.is/), a tool that views the site on various devices.
 
 ### Libraries:
 
@@ -133,7 +133,7 @@ Languages:
 
 ## Testing
 
-The testing of this project can be found as a seperate [TESTING.md](TESTING.md) file.
+The testing of this project can be found as a separate [TESTING.md](TESTING.md) file.
 
 ## Deployment
 
@@ -163,9 +163,9 @@ All the text used in this project is made up by me. The brand, contact details, 
 
 [W3Schools](https://www.w3schools.com/) provided code to make a [responsive image grid](https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp) on gallery.html and a [responsive Iframe](https://www.w3schools.com/howto/howto_css_responsive_iframes.asp) to contact.html.
 
-I used and modified the code from [CSS Tricks](https://css-tricks.com/perfect-full-page-background-image/) in order to get full width backgrounds that is compatible and responsive.
+I used and modified the code from [CSS Tricks](https://css-tricks.com/perfect-full-page-background-image/) in order to get full width backgrounds that are compatible and responsive.
 
-A styled [Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/) navbar and carousel was implemented in this project. Styled buttons and modals was also used from their library.
+A styled [Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/) navbar and carousel was implemented in this project. Styled buttons and modals were also used from their library.
 
 ### Media
 
@@ -175,5 +175,5 @@ The images used in this project were downloaded from [Pexels](https://www.pexels
 
 My mentor [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/) for guiding, support and pointing me in the right direction.
 The Code Institute slack channel for having discussion, questions and answers that contribute to my project.
-[Stack Overflow](https://stackoverflow.com/) for helping me understanding and solving issues along the way.
+[Stack Overflow](https://stackoverflow.com/) for helping me understand and solving issues along the way.
 The web site that inspired my design to some degree  was [Sky Fitness](https://www.skyfitness.no/).
