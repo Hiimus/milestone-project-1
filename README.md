@@ -13,6 +13,28 @@ To visit the deployed website, click [here](https://hiimus.github.io/milestone-p
 
 The goal of this project is to attract and retain new members. Another goal is to let the user know that this gym is leaning towards barbell strength training. This project wants to get attention and interest even though the user doesn't have much or any experience with this type of training. Styrk Gym is a place that welcomes all types of people. Here, the user can expect squat racks, benches, open spaces and more. 
 
+## User Journey
+
+Home page: The user start on the home page. Here they can see what the gym's features are, and quotes from members.
+
+![home page](readme-images/user-journey1-k.jpg)
+
+Membership page: The user can learn about the various memberships and what they include.
+
+![membership page](readme-images/user-journey2-k.jpg)
+
+Gallery page: The user can have a look at the images in the gallery.
+
+![gallery page](readme-images/user-journey3-k.jpg)
+
+About us page: The user can read about the people who work in this gym.
+
+![about us page](readme-images/user-journey4-k.jpg)
+
+Contact page: The user can find contact information in the contact page.
+
+![contact page](readme-images/user-journey5-k.jpg)
+
 ## User Stories
 
 The users of this site will be non-members and members.
